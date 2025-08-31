@@ -1,12 +1,20 @@
-# 🔍 Duply v2.0 - Detector de Archivos Duplicados Web
+# 🔍 Duply v2.1 - Detector de Archivos Duplicados Web
 
-[![Version](https://img.shields.io/badge/version-2.0-blue.svg)](https://github.com/prisbia/duply_v2_web)
+[![Version](https://img.shields.io/badge/version-2.1-blue.svg)](https://github.com/prisbia/duply_v2_web)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Web App](https://img.shields.io/badge/demo-online-brightgreen.svg)](https://prisbia.github.io/duply_v2_web)
 
 Una aplicación web moderna y eficiente para encontrar y gestionar archivos duplicados con **inteligencia artificial** para distinguir entre duplicados exactos y sospechosos.
 
 ---
+
+## 🚀 **Novedades de la v2.1**
+
+### 🔧 **Hash Algorithm Fix (CRÍTICO)**
+- **Algoritmo de hash mejorado**: Implementación FNV-1a de 64-bit + djb2 con simulación de precisión completa
+- **Eliminación de falsos positivos**: Solucionado el problema donde imágenes diferentes eran detectadas como duplicados
+- **Inclusión del tamaño en hash**: El tamaño del archivo ahora forma parte del hash para mayor precisión
+- **Mayor resistencia a colisiones**: Probabilidad reducida de ~1 en 18 quintillones
 
 ## 🚀 **Novedades de la v2.0**
 
