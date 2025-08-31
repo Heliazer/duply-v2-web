@@ -1,0 +1,1575 @@
+=== ESTADÍSTICAS ===
+Archivos totales encontrados: 2742
+Archivos procesados (filtrados): 2742
+Grupos de duplicados: 484
+Espacio total procesado: 5909.92 MB
+Espacio ocupado por duplicados: 802.80 MB
+Espacio que se podría liberar: 802.80 MB
+
+GRUPO     TAMAÑO             HASH                               ARCHIVO
+------------------------------------------------------------------------------------------------------------------------------------------------------
+1         0.0000 MB           4cf7dea92f857dffffab3172da96b88d   D:\Calibre\Calibre Portable\Calibre Settings\caches\qwe\viewer-lookup\sp\Local Storage\leveldb\MANIFEST-000001
+          0.0000 MB                                              D:\Calibre\Calibre Portable\Calibre Settings\caches\qwe\viewer-lookup\sp\Session Storage\MANIFEST-000001
+
+2         0.0078 MB           f90e66308b56ac3344204ccf1962ae5f   D:\Calibre\Calibre Portable\Calibre Settings\caches\qwe\dp\sp\DawnCache\data_2
+          0.0078 MB                                              D:\Calibre\Calibre Portable\Calibre Settings\caches\qwe\dp\sp\GPUCache\data_2
+          0.0078 MB                                              D:\Calibre\Calibre Portable\Calibre Settings\caches\qwe\viewer-lookup\sp\DawnCache\data_2
+          0.0078 MB                                              D:\Calibre\Calibre Portable\Calibre Settings\caches\qwe\viewer-lookup\sp\GPUCache\data_2
+
+3         0.0078 MB           7908f4562159f0f920cbad966cacb53d   D:\Calibre\Calibre Portable\Calibre Settings\caches\qwe\dp\sp\DawnCache\data_0
+          0.0078 MB                                              D:\Calibre\Calibre Portable\Calibre Settings\caches\qwe\dp\sp\GPUCache\data_0
+          0.0078 MB                                              D:\Calibre\Calibre Portable\Calibre Settings\caches\qwe\viewer-lookup\sp\DawnCache\data_0
+          0.0078 MB                                              D:\Calibre\Calibre Portable\Calibre Settings\caches\qwe\viewer-lookup\sp\GPUCache\data_0
+
+4         0.26 MB             d8dd94fe2aaba4d9aba8f9d7a57d19fb   D:\Calibre\Calibre Portable\Calibre Settings\caches\qwe\dp\sp\DawnCache\data_1
+          0.26 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\qwe\dp\sp\GPUCache\data_1
+
+5         0.10 MB             9bf861578db31f0cf5ce71313928b34a   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-231_1.jpg
+          0.10 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-232_1.jpg
+
+6         0.47 MB             208619c83e2c13ae60dd5bdb3a67e5d8   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-9_1.jpg
+          0.47 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-9_1.jpg
+          0.47 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-9_1.jpg
+
+7         0.89 MB             941472c086bdaf7976d6ebc835cdb5d1   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-99_1.jpg
+          0.89 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-99_1.jpg
+
+8         0.82 MB             577479d3c2939a3bb5943429ab3d12c5   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-98_1.jpg
+          0.82 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-98_1.jpg
+
+9         0.78 MB             90be8a133d1c136bef57a74a4b7284e3   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-94_1.jpg
+          0.78 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-94_1.jpg
+          0.78 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-94_1.jpg
+
+10        0.80 MB             ca205f44802c09bbaa1acbdf0b4d1dff   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-93_1.jpg
+          0.80 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-93_1.jpg
+          0.80 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-93_1.jpg
+
+11        0.82 MB             1079b1650f2d471bd9af462693a28e97   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-90_1.jpg
+          0.82 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-90_1.jpg
+          0.82 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-90_1.jpg
+
+12        0.63 MB             8b4952a88a95b6dc83178ae725f014e8   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-8_1.jpg
+          0.63 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-8_1.jpg
+          0.63 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-8_1.jpg
+
+13        0.83 MB             cba1170259dff3bbdb708df222bf0c31   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-89_1.jpg
+          0.83 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-89_1.jpg
+          0.83 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-89_1.jpg
+
+14        0.82 MB             bd1a60fcdb0fb04997e57c3a460ccebf   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-88_1.jpg
+          0.82 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-88_1.jpg
+          0.82 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-88_1.jpg
+
+15        0.86 MB             7477fffceffb7d60abaff7c5975011d2   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-86_1.jpg
+          0.86 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-86_1.jpg
+          0.86 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-86_1.jpg
+
+16        0.86 MB             ea0484087a84d645fffacf6621446055   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-85_1.jpg
+          0.86 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-85_1.jpg
+          0.86 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-85_1.jpg
+
+17        0.60 MB             b43006f5db0bdd555c6ad62b2d4f8829   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-81_1.jpg
+          0.60 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-81_1.jpg
+          0.60 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-81_1.jpg
+
+18        0.80 MB             8973bb8b9485c779e3096eeb07e3b581   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-80_1.jpg
+          0.80 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-80_1.jpg
+          0.80 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-80_1.jpg
+
+19        0.87 MB             ded3f1b03f656ba0302c9dde855a6276   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-79_1.jpg
+          0.87 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-79_1.jpg
+          0.87 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-79_1.jpg
+
+20        0.84 MB             ce9318261b7229e8f3f103bd7e88a8ba   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-76_1.jpg
+          0.84 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-76_1.jpg
+          0.84 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-76_1.jpg
+
+21        0.86 MB             c95002a52501cb1b7e2a7a37a24b09c5   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-74_1.jpg
+          0.86 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-74_1.jpg
+          0.86 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-74_1.jpg
+
+22        0.83 MB             b51f05601e09413f118312068f392a3f   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-73_1.jpg
+          0.83 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-73_1.jpg
+          0.83 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-73_1.jpg
+
+23        0.83 MB             be640da52037a60f594d9afbb7a910cf   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-71_1.jpg
+          0.83 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-71_1.jpg
+          0.83 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-71_1.jpg
+
+24        0.47 MB             901481f9fc1078d61f2dbf299eb03d3    D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-70_1.jpg
+          0.47 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-70_1.jpg
+          0.47 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-70_1.jpg
+
+25        0.84 MB             d843eae6c50e71dff5c292f756847733   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-68_1.jpg
+          0.84 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-68_1.jpg
+          0.84 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-68_1.jpg
+
+26        0.87 MB             27a95bdaf6af56238835fbe35b045a21   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-67_1.jpg
+          0.87 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-67_1.jpg
+          0.87 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-67_1.jpg
+
+27        0.63 MB             293ac7277595b054a6798d2252f2e618   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-64_1.jpg
+          0.63 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-64_1.jpg
+          0.63 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-64_1.jpg
+
+28        0.79 MB             db824188d3cab4f7d4c592c51e92b3f9   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-63_1.jpg
+          0.79 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-63_1.jpg
+          0.79 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-63_1.jpg
+
+29        0.86 MB             3cc2425796d73e66d114ee38df578f14   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-62_1.jpg
+          0.86 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-62_1.jpg
+          0.86 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-62_1.jpg
+
+30        0.83 MB             31bace415fcd7d7a8f6ee46456843e38   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-60_1.jpg
+          0.83 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-60_1.jpg
+          0.83 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-60_1.jpg
+
+31        0.54 MB             8bb660661dbbb7c330bd3213d672cb21   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-5_1.jpg
+          0.54 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-5_1.jpg
+          0.54 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-5_1.jpg
+
+32        0.59 MB             303052b1b8fe85651849c7e4be75853d   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-58_1.jpg
+          0.59 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-58_1.jpg
+          0.59 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-58_1.jpg
+
+33        0.72 MB             7c0cc005606c04f6e1329646ea938628   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-57_1.jpg
+          0.72 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-57_1.jpg
+          0.72 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-57_1.jpg
+
+34        0.74 MB             28372e89f6b7b3573d41f43b14d75c73   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-55_1.jpg
+          0.74 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-55_1.jpg
+          0.74 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-55_1.jpg
+
+35        0.55 MB             cb983ca830101179ce6ac3bc3cc576ed   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-54_1.jpg
+          0.55 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-54_1.jpg
+          0.55 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-54_1.jpg
+
+36        0.88 MB             227d6f5298edb30297d51d19b0c53c42   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-51_1.jpg
+          0.88 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-51_1.jpg
+          0.88 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-51_1.jpg
+
+37        0.88 MB             88b5b2bea4087609517b685c38510a2    D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-50_1.jpg
+          0.88 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-50_1.jpg
+          0.88 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-50_1.jpg
+
+38        0.72 MB             4d77dab2ea3321b48a778c5dd88ae83e   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-47_1.jpg
+          0.72 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-47_1.jpg
+          0.72 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-47_1.jpg
+
+39        0.81 MB             e64bf46dfd2f50d1b88b419f3610616d   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-46_1.jpg
+          0.81 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-46_1.jpg
+          0.81 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-46_1.jpg
+
+40        0.19 MB             e83b9721ce2251b2e68b570c868cf5aa   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-461_1.jpg
+          0.19 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-461_1.jpg
+
+41        0.58 MB             8cb1a31e18a80812e1a4e39ba361d61c   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-458_1.jpg
+          0.58 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-458_1.jpg
+
+42        0.74 MB             c007adabb6987459be3b7bfdddef8ab1   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-457_1.jpg
+          0.74 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-457_1.jpg
+
+43        0.82 MB             69e747f076043503c70b01f14b52eb1d   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-456_1.jpg
+          0.82 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-456_1.jpg
+
+44        0.83 MB             c333ca67efeb977056d73693f44a807a   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-455_1.jpg
+          0.83 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-455_1.jpg
+
+45        0.81 MB             3f46922ce7f1f83737c9a2c6eb7c84cf   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-454_1.jpg
+          0.81 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-454_1.jpg
+
+46        0.85 MB             488903c297a0a7f9ae76e1f8e9ac69a3   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-453_1.jpg
+          0.85 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-453_1.jpg
+
+47        0.85 MB             cfeb3ec5f01737bbb8ec784caf322ed3   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-452_1.jpg
+          0.85 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-452_1.jpg
+
+48        0.83 MB             d63c0b7faa1d69c9a0d44a512fbe3393   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-451_1.jpg
+          0.83 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-451_1.jpg
+
+49        0.87 MB             2776dbbf3b39af08c4dff6a715349c90   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-450_1.jpg
+          0.87 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-450_1.jpg
+
+50        0.90 MB             edf821b927e1a26558c50d50a69842d9   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-44_1.jpg
+          0.90 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-44_1.jpg
+          0.90 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-44_1.jpg
+
+51        0.56 MB             b92294ff8ff623f23d5f26ee0980fa04   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-448_1.jpg
+          0.56 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-448_1.jpg
+
+52        0.82 MB             45971fe990afaf776197c7144a56d151   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-446_1.jpg
+          0.82 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-446_1.jpg
+
+53        0.83 MB             370a145a2d9dca97e8d81fd672875a     D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-444_1.jpg
+          0.83 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-444_1.jpg
+
+54        0.83 MB             c2ad6ffd97f26ffc84d3c64660f62154   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-443_1.jpg
+          0.83 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-443_1.jpg
+
+55        0.82 MB             fd9204eb2c268221d351102369a86325   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-441_1.jpg
+          0.82 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-441_1.jpg
+
+56        0.89 MB             f8e1e1afdbf1c310916f7c659d6c9af2   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-43_1.jpg
+          0.89 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-43_1.jpg
+          0.89 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-43_1.jpg
+
+57        0.83 MB             30db725b07eb99d8d90593dbc5261740   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-438_1.jpg
+          0.83 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-438_1.jpg
+
+58        0.76 MB             433b3ac6cf24ab23e0444105c1d03199   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-436_1.jpg
+          0.76 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-436_1.jpg
+
+59        0.75 MB             8ded28d2af9ef03f9ede25c18674a529   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-435_1.jpg
+          0.75 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-435_1.jpg
+
+60        0.77 MB             6b82f7dde87f8765db67d19e76395957   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-434_1.jpg
+          0.77 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-434_1.jpg
+
+61        0.76 MB             9a10513b7db24808518cb2a722080d0a   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-431_1.jpg
+          0.76 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-431_1.jpg
+
+62        0.85 MB             5c785b255d16846cf6e2ca28e248719e   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-430_1.jpg
+          0.85 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-430_1.jpg
+
+63        0.87 MB             93b55c3114d79b58b881d388ce93f84c   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-429_1.jpg
+          0.87 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-429_1.jpg
+
+64        0.85 MB             8eca8666cd57ae3c280b853393051cf2   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-428_1.jpg
+          0.85 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-428_1.jpg
+
+65        0.69 MB             989f12325b166dc0d471d09bd7fed0c8   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-424_1.jpg
+          0.69 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-424_1.jpg
+
+66        0.78 MB             e13a5b6f47b0ad31590d0d451229bbe5   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-423_1.jpg
+          0.78 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-423_1.jpg
+
+67        0.80 MB             f12fe2710bddbe04be38937bed1d40d0   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-422_1.jpg
+          0.80 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-422_1.jpg
+
+68        0.69 MB             f0d12916be1f8f5e258362015a68adcc   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-421_1.jpg
+          0.69 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-421_1.jpg
+
+69        0.87 MB             b4fef3990546ccbf1fdd74c912d9a21    D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-41_1.jpg
+          0.87 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-41_1.jpg
+          0.87 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-41_1.jpg
+
+70        0.83 MB             86342c065c44e0961bb86fdf5660f60    D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-419_1.jpg
+          0.83 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-419_1.jpg
+
+71        0.80 MB             4b4660729ca02ea3cd1dc27a91883bf5   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-418_1.jpg
+          0.80 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-418_1.jpg
+
+72        0.84 MB             4927151a82121ed8b9d420265c554a04   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-417_1.jpg
+          0.84 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-417_1.jpg
+
+73        0.88 MB             3b0cb5be50448ed8b0efa37b41c9d17e   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-416_1.jpg
+          0.88 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-416_1.jpg
+
+74        0.74 MB             1efa187b6b1d8c6ec9013e8e2a556168   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-413_1.jpg
+          0.74 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-413_1.jpg
+
+75        0.82 MB             302ea2c61912a74d8794030214a173a7   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-412_1.jpg
+          0.82 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-412_1.jpg
+
+76        0.79 MB             e79170314035c114ccfb848e5c56ccf    D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-411_1.jpg
+          0.79 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-411_1.jpg
+
+77        0.72 MB             49909670b8328d08d4c1a01387e447fe   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-408_1.jpg
+          0.72 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-408_1.jpg
+
+78        0.86 MB             8e191606bb47b2e6ff02b140f006bb82   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-405_1.jpg
+          0.86 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-405_1.jpg
+
+79        0.85 MB             12b1b48f2fcaa4a5c1fe142c3461228    D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-404_1.jpg
+          0.85 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-404_1.jpg
+
+80        0.85 MB             397ea86e88533d82ef1e15211e0f437c   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-403_1.jpg
+          0.85 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-403_1.jpg
+
+81        0.81 MB             65c8348c0dadb8c93d0d322b25bb0925   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-401_1.jpg
+          0.81 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-401_1.jpg
+
+82        0.76 MB             c99cabecefdfa16e4e61741985e986ec   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-400_1.jpg
+          0.76 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-400_1.jpg
+
+83        0.64 MB             5edab0c3634cb61bf329f371ebc83b25   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-3_1.jpg
+          0.64 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-3_1.jpg
+          0.64 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-3_1.jpg
+
+84        0.81 MB             a3a438e231ff514e9efc2a12110dd3a4   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-398_1.jpg
+          0.81 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-398_1.jpg
+
+85        0.80 MB             3f1c5e27946280e6f4dae57f5b153656   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-397_1.jpg
+          0.80 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-397_1.jpg
+
+86        0.84 MB             fc52cd898c9ccab0990198f58633f094   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-396_1.jpg
+          0.84 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-396_1.jpg
+
+87        0.79 MB             eb615eeaab6f8e17fa483f1c15a0d0cb   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-395_1.jpg
+          0.79 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-395_1.jpg
+
+88        0.83 MB             e8ccce94d2504f4c556dae99fdb5b6ae   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-394_1.jpg
+          0.83 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-394_1.jpg
+
+89        0.63 MB             8130d9e3a4f3d27684b7e5edd48b9966   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-393_1.jpg
+          0.63 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-393_1.jpg
+
+90        0.75 MB             48c649316c465aed4c1a18a892283135   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-392_1.jpg
+          0.75 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-392_1.jpg
+
+91        0.83 MB             cec40480b7b074383ec5d1341f40a06e   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-390_1.jpg
+          0.83 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-390_1.jpg
+
+92        0.81 MB             f5e6b32b7b7a68c66156e540323a6a80   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-389_1.jpg
+          0.81 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-389_1.jpg
+
+93        0.82 MB             f5aeab7fbb71f46832377df9495d05c2   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-387_1.jpg
+          0.82 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-387_1.jpg
+
+94        0.83 MB             ea64e440c6cad91ae2ac016c8fbe35c6   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-386_1.jpg
+          0.83 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-386_1.jpg
+
+95        0.65 MB             2e855b9ccdd4d6179d44a9344868609    D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-385_1.jpg
+          0.65 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-385_1.jpg
+
+96        0.84 MB             913d79a9bfb39b596cc9a2aea5bf7a9b   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-384_1.jpg
+          0.84 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-384_1.jpg
+
+97        0.83 MB             99653bb77ad24b46e40734830e3eed60   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-383_1.jpg
+          0.83 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-383_1.jpg
+
+98        0.75 MB             f905dc09c6175759121a6fafe695a9cb   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-382_1.jpg
+          0.75 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-382_1.jpg
+
+99        0.69 MB             84fa232d3517a3c3f5cab8365072f82f   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-381_1.jpg
+          0.69 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-381_1.jpg
+
+100       0.80 MB             a7bf738c48f44d38208719052f3a73f4   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-380_1.jpg
+          0.80 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-380_1.jpg
+
+101       0.85 MB             465ab441eda4399df188b53f64cbdaef   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-37_1.jpg
+          0.85 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-37_1.jpg
+          0.85 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-37_1.jpg
+
+102       0.87 MB             55a21554c13709e6caac35e0c69d798e   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-378_1.jpg
+          0.87 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-378_1.jpg
+
+103       0.87 MB             2a881f2ee938bef5d6ccf66db901c403   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-83_1.jpg
+          0.87 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-83_1.jpg
+          0.87 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-83_1.jpg
+
+104       0.82 MB             143eae911ad6cd353412bc5a0135b36d   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-377_1.jpg
+          0.82 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-377_1.jpg
+
+105       0.14 MB             2c2298305a96c8551a0636ad5a5750ad   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-206_1.jpg
+          0.14 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-207_1.jpg
+
+106       0.65 MB             f46a51953e6761147a5c80d0eafdbc42   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-7_1.jpg
+          0.65 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-7_1.jpg
+          0.65 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-7_1.jpg
+
+107       0.82 MB             e5180aaa903b8b8b79b8ffd4b6ee6e2b   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-167_1.jpg
+          0.82 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-167_1.jpg
+
+108       0.84 MB             65ff7e42a4bf2231837d8db8af59377d   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-192_1.jpg
+          0.84 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-192_1.jpg
+
+109       0.81 MB             2ff383b0213a44bc752815ad7fe6346e   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-307_1.jpg
+          0.81 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-307_1.jpg
+
+110       0.80 MB             760209e552b726dddfc7070176fcd359   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-279_1.jpg
+          0.80 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-279_1.jpg
+
+111       0.84 MB             478413ed43a1309bcccc69d40f6aa9ad   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-299_1.jpg
+          0.84 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-299_1.jpg
+
+112       0.78 MB             d862dc15a334541e49b6ebbe808dafa8   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-211_1.jpg
+          0.78 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-211_1.jpg
+
+113       0.77 MB             2ba39d2bb3172901d7c680203590068    D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-359_1.jpg
+          0.77 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-359_1.jpg
+
+114       0.89 MB             604cbc82e00631f8eb05247615821d62   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-72_1.jpg
+          0.89 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-72_1.jpg
+          0.89 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-72_1.jpg
+
+115       0.84 MB             5401a29e927ca69674b57de240be127    D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-388_1.jpg
+          0.84 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-388_1.jpg
+
+116       0.48 MB             792bdad6c395dcd0f4d792249278ee54   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-238_1.jpg
+          0.48 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-238_1.jpg
+
+117       0.49 MB             eb56af9fbe32bd1992153cabacd84fe9   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-66_1.jpg
+          0.49 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-66_1.jpg
+          0.49 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-66_1.jpg
+
+118       0.74 MB             3cb1b039308703d6c2545a86e4e86352   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-342_1.jpg
+          0.74 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-342_1.jpg
+
+119       0.0015 MB           64ad47c720e72abb6a8a97b09bbf4b37   D:\Calibre\Calibre Portable\Calibre\app\resources\images\format-text-color.png
+          0.0015 MB                                              D:\Calibre\Calibre Portable\Calibre\app\resources\images\lookfeel.png
+
+120       0.73 MB             a45d0f1e53be5814aec33fb7fefbbd0c   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-409_1.jpg
+          0.73 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-409_1.jpg
+
+121       0.80 MB             a58794e206d92b76f6eff351ae0fdcc2   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-277_1.jpg
+          0.80 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-277_1.jpg
+
+122       0.0033 MB           d9c684f96667b9af7051fa82b1a4ab09   D:\Calibre\Calibre Portable\Calibre\app\resources\images\character-set.png
+          0.0033 MB                                              D:\Calibre\Calibre Portable\Calibre\app\resources\images\languages.png
+
+123       0.63 MB             5db92f95cc6ea8c71357213b1f1b158f   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-304_1.jpg
+          0.63 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-304_1.jpg
+
+124       0.83 MB             112e64bf447def31683dc150da4233d1   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-315_1.jpg
+          0.83 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-315_1.jpg
+
+125       0.83 MB             984cd0e216b16db17f3601d4960039f    D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-180_1.jpg
+          0.83 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-180_1.jpg
+
+126       0.79 MB             4e0cb6694e0187db658dfcf018fa8b13   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-252_1.jpg
+          0.79 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-252_1.jpg
+
+127       0.68 MB             9c001fdfa2f658d0ba14e4ccbd1f7440   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-447_1.jpg
+          0.68 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-447_1.jpg
+
+128       0.82 MB             4d0925f4c12040e5c25e9a90f3d65daf   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-265_1.jpg
+          0.82 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-265_1.jpg
+
+129       0.65 MB             6f22e6e8fd03ff43f72d627dea3a8569   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-358_1.jpg
+          0.65 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-358_1.jpg
+
+130       0.83 MB             e47b48e8e78cd7b07babec3de8ae624a   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-276_1.jpg
+          0.83 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-276_1.jpg
+
+131       0.68 MB             a36641a11ec99cd8cef175990dc45988   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-31_1.jpg
+          0.68 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-31_1.jpg
+          0.68 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-31_1.jpg
+
+132       0.85 MB             8604e53f8109a6380d42876cc3e9393    D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-298_1.jpg
+          0.85 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-298_1.jpg
+
+133       0.65 MB             629d8d956772c9be4faef0848f35f506   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-141_1.jpg
+          0.65 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-141_1.jpg
+
+134       0.82 MB             9748f58d7c9ba9cb89f573cb78422957   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-153_1.jpg
+          0.82 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-153_1.jpg
+
+135       0.75 MB             155668f8675ca1aab85960ac79472cd2   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-53_1.jpg
+          0.75 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-53_1.jpg
+          0.75 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-53_1.jpg
+
+136       0.82 MB             4bee4fd952ef3403c3779cfa74a646     D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-353_1.jpg
+          0.82 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-353_1.jpg
+
+137       0.76 MB             2c05267fbb019539ef31fe4e66d2f1ed   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-164_1.jpg
+          0.76 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-164_1.jpg
+
+138       0.78 MB             c71cbcb986ae325bb570422f053954ff   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-214_1.jpg
+          0.78 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-214_1.jpg
+
+139       0.83 MB             f266ff65e9dfff741f634d9d958db8d6   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-344_1.jpg
+          0.83 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-344_1.jpg
+
+140       0.87 MB             1c2aa502f3213e66bbc030b4f77f1f20   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-445_1.jpg
+          0.87 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-445_1.jpg
+
+141       0.84 MB             8cadca9c2d43dc07316576fdfd9cc9cb   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-61_1.jpg
+          0.84 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-61_1.jpg
+          0.84 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-61_1.jpg
+
+142       0.78 MB             7b34e29b9b4e8f986834409191ad6c20   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-34_1.jpg
+          0.78 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-34_1.jpg
+          0.78 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-34_1.jpg
+
+143       0.69 MB             5902a8b9058547265b0307b052c5bb70   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-239_1.jpg
+          0.69 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-239_1.jpg
+
+144       0.79 MB             927b8564cd635494432d29ec86ddb386   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-348_1.jpg
+          0.79 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-348_1.jpg
+
+145       0.86 MB             1b1572ec82fd9c98153dbae7a51457e8   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-26_1.jpg
+          0.86 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-26_1.jpg
+          0.86 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-26_1.jpg
+
+146       0.88 MB             d1c85d8855e8f47832e986171f11fd68   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-406_1.jpg
+          0.88 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-406_1.jpg
+
+147       0.49 MB             8d914e27e3630b0f5bf3742717fe160    D:\Calibre\Libros\Libros_AZ\ALLENDE, Isabel - El bosque de los pigmeos (v1.0) (doc).zip
+          0.49 MB                                                D:\Calibre\Libros\Libros_AZ\ALLENDE, Isabel_El bosque de los pigmeos (v1[1].0) (doc).zip
+
+148       0.84 MB             dab2f35679d5c316ac5b9776f6d712     D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-332_1.jpg
+          0.84 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-332_1.jpg
+
+149       0.84 MB             607f959bad174943f1c40e298d3b566d   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-440_1.jpg
+          0.84 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-440_1.jpg
+
+150       0.79 MB             a0d8ca22e3c73474a6dd7f3f4d4f832e   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-255_1.jpg
+          0.79 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-255_1.jpg
+
+151       0.83 MB             f2cb9d9984a97c55ab4c2d50992733bd   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-273_1.jpg
+          0.83 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-273_1.jpg
+
+152       0.72 MB             92ec261eeac0da9eb227d120c28102ec   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-95_1.jpg
+          0.72 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-95_1.jpg
+          0.72 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-95_1.jpg
+
+153       0.42 MB             a9961687827de2da8e8276bfbd2fbe80   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-23_1.jpg
+          0.42 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-23_1.jpg
+          0.42 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-23_1.jpg
+
+154       0.49 MB             cc398e8f8fd5063855590282d8633da0   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-306_1.jpg
+          0.49 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-306_1.jpg
+
+155       0.63 MB             577cdfe9488e3c7f628a32cf0eede55    D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-287_1.jpg
+          0.63 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-287_1.jpg
+
+156       0.51 MB             8d2d9cc3e71a988466f722acae1530f0   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-122_1.jpg
+          0.51 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-122_1.jpg
+
+157       0.82 MB             4501e3fe926aa118bfe28a76974016ea   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-294_1.jpg
+          0.82 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-294_1.jpg
+
+158       0.72 MB             8c69c6968b9143d418e38b3733841794   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-286_1.jpg
+          0.72 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-286_1.jpg
+
+159       0.76 MB             906dc419ebe0c8b0bf91a1fd7539afe8   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-21_1.jpg
+          0.76 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-21_1.jpg
+          0.76 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-21_1.jpg
+
+160       0.83 MB             39031431bd865a14ff968e608197266e   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-225_1.jpg
+          0.83 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-225_1.jpg
+
+161       0.81 MB             49e308b94d8c27d5351fdd6b5d4e95e5   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-449_1.jpg
+          0.81 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-449_1.jpg
+
+162       0.55 MB             d68cc9bea6a7f72e6a5cb770683ab638   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-204_1.jpg
+          0.55 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-204_1.jpg
+
+163       0.56 MB             fe83f508e0116357b5b4e471a86b154b   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-29_1.jpg
+          0.56 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-29_1.jpg
+          0.56 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-29_1.jpg
+
+164       0.87 MB             39a733d864b314f7b2382531a30889     D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-42_1.jpg
+          0.87 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-42_1.jpg
+          0.87 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-42_1.jpg
+
+165       0.57 MB             69ad46bfd83a8420e3d052cfce61e994   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-270_1.jpg
+          0.57 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-270_1.jpg
+
+166       0.74 MB             c34842c1db436be4511fe232db55b86e   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-123_1.jpg
+          0.74 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-123_1.jpg
+
+167       0.39 MB             fe6068857acd68dedcad55c7bde119a4   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-176_1.jpg
+          0.39 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-176_1.jpg
+
+168       0.76 MB             ebb9fd55dd4e3628ad267d6e029f56     D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-87_1.jpg
+          0.76 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-87_1.jpg
+          0.76 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-87_1.jpg
+
+169       0.64 MB             ec16c6b5a5d66594df2adc5b6394c04e   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-38_1.jpg
+          0.64 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-38_1.jpg
+          0.64 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-38_1.jpg
+
+170       0.77 MB             9372a7e4f40cc14cf8b969671a54735e   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-343_1.jpg
+          0.77 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-343_1.jpg
+
+171       0.64 MB             a47e342da147e87de4181109ed25ee6d   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-329_1.jpg
+          0.64 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-329_1.jpg
+
+172       0.82 MB             3d9adf0d42e1d7e7fed0c0d01c7c3489   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-368_1.jpg
+          0.82 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-368_1.jpg
+
+173       0.87 MB             b85f9b5609b4cd31a2709407ecd7945d   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-78_1.jpg
+          0.87 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-78_1.jpg
+          0.87 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-78_1.jpg
+
+174       0.78 MB             9648c7fe1e3865f4f085931e1de839b6   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-326_1.jpg
+          0.78 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-326_1.jpg
+
+175       0.73 MB             a34ffb983a999ca12639d80e698c7e41   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-369_1.jpg
+          0.73 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-369_1.jpg
+
+176       0.82 MB             80d291b9169e299be20fc1583cc3eca1   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-360_1.jpg
+          0.82 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-360_1.jpg
+
+177       0.87 MB             16d19b0d1dee03fc245cd4c2f872c2e2   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-202_1.jpg
+          0.87 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-202_1.jpg
+
+178       0.81 MB             239480ae3117a09be55f8bb3ca719987   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-185_1.jpg
+          0.81 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-185_1.jpg
+
+179       0.81 MB             456f2af7f592635e2aa63a2c37302c58   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-227_1.jpg
+          0.81 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-227_1.jpg
+
+180       0.78 MB             608d884d7f82edf9827de5be62b8d93    D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-159_1.jpg
+          0.78 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-159_1.jpg
+
+181       0.69 MB             2febab2ef0b7082b872b4bd3fbcbfdbb   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-373_1.jpg
+          0.69 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-373_1.jpg
+
+182       0.73 MB             42a76e207a3b045ebd194d9de5a7bc82   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-285_1.jpg
+          0.73 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-285_1.jpg
+
+183       0.79 MB             2edfd04b0abc96d9c9449553f0f15f17   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-345_1.jpg
+          0.79 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-345_1.jpg
+
+184       0.84 MB             6e490b440cf115b5c4310aea25712003   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-196_1.jpg
+          0.84 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-196_1.jpg
+
+185       0.85 MB             cf31f3e75ecc2a0b3e2be7065ca52be3   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-318_1.jpg
+          0.85 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-318_1.jpg
+
+186       0.55 MB             23a9654c90e2285277ad4bef2bc87f1c   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-1_1.jpg
+          0.55 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-1_1.jpg
+          0.55 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-1_1.jpg
+
+187       0.74 MB             8692568f7f3e3d1feeb784e792a5a821   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-426_1.jpg
+          0.74 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-426_1.jpg
+
+188       0.79 MB             3371c14c535016a22fb70138af0e85c2   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-407_1.jpg
+          0.79 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-407_1.jpg
+
+189       0.38 MB             7f042332d110d54eaa21b55355ec847a   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-174_1.jpg
+          0.38 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-174_1.jpg
+
+190       0.51 MB             cf9a7aeb3d5c43d6ddce904c89277e12   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-117_1.jpg
+          0.51 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-117_1.jpg
+
+191       0.83 MB             6991f27aa71539639f8599df8b1155fb   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-195_1.jpg
+          0.83 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-195_1.jpg
+
+192       0.90 MB             26a18d0e5ed9a73b605e0bacf1fa4f1b   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-40_1.jpg
+          0.90 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-40_1.jpg
+          0.90 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-40_1.jpg
+
+193       0.68 MB             b147207cf3072eba5f089121f5f7a6     D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-439_1.jpg
+          0.68 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-439_1.jpg
+
+194       0.0001 MB           fb3d540fb05d5496e8c01f4f1d00e7c6   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-30oa0fmh\calibre-book-annotations.json
+          0.0001 MB                                              D:\Calibre\Calibre Portable\Calibre Settings\viewer\annots\788d50a5ccaadd3b7e0033db8df379c141a2ec9269531d67ae1446708299f7e4.json
+
+195       0.55 MB             4e01de1842827f09397c8e48de8ea4d3   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-149_1.jpg
+          0.55 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-149_1.jpg
+
+196       0.85 MB             5c546af18a586790251d07bd2bc87c6a   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-75_1.jpg
+          0.85 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-75_1.jpg
+          0.85 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-75_1.jpg
+
+197       0.44 MB             eabbdc1031d453b132f1da1e9d4473f    D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-2_1.jpg
+          0.44 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-2_1.jpg
+          0.44 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-2_1.jpg
+
+198       0.77 MB             5994fe6751f1d49a599b6111fe0bb6c    D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-391_1.jpg
+          0.77 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-391_1.jpg
+
+199       0.90 MB             db8ff5e13fb31162db35b71691ffd0c0   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-52_1.jpg
+          0.90 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-52_1.jpg
+          0.90 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-52_1.jpg
+
+200       0.84 MB             322bf00163ebfce3ebf3175259a7f0cd   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-301_1.jpg
+          0.84 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-301_1.jpg
+
+201       0.87 MB             f261adf76eb796fbdc5d566345d2d7bf   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-151_1.jpg
+          0.87 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-151_1.jpg
+
+202       0.64 MB             aef1a94c75139980753950957366744c   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-269_1.jpg
+          0.64 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-269_1.jpg
+
+203       0.43 MB             ea46aaa6cd7a89ff32f6c62007ef77     D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-259_1.jpg
+          0.43 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-259_1.jpg
+
+204       0.76 MB             6ee11ed184a7697c4f57a29507795940   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-375_1.jpg
+          0.76 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-375_1.jpg
+
+205       0.65 MB             6b98c89262305baffbdbedf5b50d6397   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-203_1.jpg
+          0.65 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-203_1.jpg
+
+206       0.84 MB             7ec644562808394c57a4ea6e675eb0f6   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-184_1.jpg
+          0.84 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-184_1.jpg
+
+207       0.0000 MB           58aaf90d0e91fc3ea3d086029a8f6154   D:\Calibre\Calibre Portable\Calibre Settings\caches\qwe\viewer-lookup\sp\Local Storage\leveldb\CURRENT
+          0.0000 MB                                              D:\Calibre\Calibre Portable\Calibre Settings\caches\qwe\viewer-lookup\sp\Session Storage\CURRENT
+
+208       0.84 MB             dbc17263bca04cc82e2aad85fd4f098    D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-256_1.jpg
+          0.84 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-256_1.jpg
+
+209       0.82 MB             8b07719e3c604821a0dc42370a92bdd    D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-296_1.jpg
+          0.82 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-296_1.jpg
+
+210       0.79 MB             8a449167ed0a22afb71d4de887bd4a0d   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-161_1.jpg
+          0.79 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-161_1.jpg
+
+211       0.39 MB             d08b9a3895b10819c0c007063d0a09c3   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-323_1.jpg
+          0.39 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-323_1.jpg
+
+212       0.79 MB             4227a51f3c9dcf532770c7c79188c77d   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-223_1.jpg
+          0.79 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-223_1.jpg
+
+213       0.0010 MB           902a1a140ccd65e62e3f3cbb91031c     D:\Calibre\Calibre Portable\Calibre\app\resources\images\books_in_series.png
+          0.0010 MB                                              D:\Calibre\Calibre Portable\Calibre\app\resources\images\series.png
+
+214       0.81 MB             91031fc7536bbb8fa90297b6a493e905   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-228_1.jpg
+          0.81 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-228_1.jpg
+
+215       0.57 MB             fa49c38da0564441c4890ca32ce7156d   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-48_1.jpg
+          0.57 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-48_1.jpg
+          0.57 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-48_1.jpg
+
+216       0.83 MB             106251eed406b15d22b3e4c456fb8b03   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-127_1.jpg
+          0.83 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-127_1.jpg
+
+217       0.50 MB             bc398542ba0a30a6554fe7581d3e4cf4   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-96_1.jpg
+          0.50 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-96_1.jpg
+          0.50 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-96_1.jpg
+
+218       0.55 MB             a8f6c372af18a6bad7c750e59f16fbf6   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-420_1.jpg
+          0.55 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-420_1.jpg
+
+219       0.87 MB             53e37278661fcd8ee5d20f2122ed40     D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-13_1.jpg
+          0.87 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-13_1.jpg
+          0.87 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-13_1.jpg
+
+220       0.81 MB             5d56c5a94b880d10d60f1ba39bf17482   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-135_1.jpg
+          0.81 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-135_1.jpg
+
+221       0.86 MB             5deeafe1a2d4aaef7eed6a1817a2b325   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-25_1.jpg
+          0.86 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-25_1.jpg
+          0.86 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-25_1.jpg
+
+222       0.70 MB             1e43899633e8e495bfd1636394ac6a01   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-189_1.jpg
+          0.70 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-189_1.jpg
+
+223       0.85 MB             2e2a63cd7fd6ab597e821ed938e0e9f    D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-310_1.jpg
+          0.85 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-310_1.jpg
+
+224       0.0093 MB           7aa2251eb804dcb52a50d9e697d536ad   D:\Calibre\Calibre Portable\Calibre\app\resources\images\mimetypes\bmp.png
+          0.0093 MB                                              D:\Calibre\Calibre Portable\Calibre\app\resources\images\mimetypes\gif.png
+          0.0093 MB                                              D:\Calibre\Calibre Portable\Calibre\app\resources\images\mimetypes\jpeg.png
+
+225       0.75 MB             9011f15c76944548b6243971a941f520   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-399_1.jpg
+          0.75 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-399_1.jpg
+
+226       0.78 MB             b5e515c799f03a3772a5677b2a78545f   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-19_1.jpg
+          0.78 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-19_1.jpg
+          0.78 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-19_1.jpg
+
+227       0.46 MB             d84ec2eb1410983ad71fedf3c582ab62   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-103_1.jpg
+          0.46 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-103_1.jpg
+
+228       0.88 MB             728e2cfb890c4748e541689b8d394490   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-14_1.jpg
+          0.88 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-14_1.jpg
+          0.88 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-14_1.jpg
+
+229       0.86 MB             5f93be33f3a1a1c7e30dcecc4e88bc23   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-459_1.jpg
+          0.86 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-459_1.jpg
+
+230       0.82 MB             6b24c700be0dbceb16277a5e6505a559   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-245_1.jpg
+          0.82 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-245_1.jpg
+
+231       0.88 MB             446108ce476941a8c7bf795c355bcd9a   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-110_1.jpg
+          0.88 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-110_1.jpg
+
+232       0.72 MB             4b058648f1f27453ff9159fa3eb2929d   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-249_1.jpg
+          0.72 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-249_1.jpg
+
+233       0.84 MB             cb16984d7d51a99dfe43bfef55c2a3b9   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-170_1.jpg
+          0.84 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-170_1.jpg
+
+234       0.83 MB             95887feba2b51f45d44a062943f1a681   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-282_1.jpg
+          0.83 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-282_1.jpg
+
+235       0.86 MB             41dbe394a69d8422617f00aeeaf2d0f0   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-97_1.jpg
+          0.86 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-97_1.jpg
+          0.86 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-97_1.jpg
+
+236       0.86 MB             2187a3f1ac12def83ba04df3cb9d0bf2   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-154_1.jpg
+          0.86 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-154_1.jpg
+
+237       0.86 MB             b84278a51e40f6f4e92dc8d6f1f06328   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-49_1.jpg
+          0.86 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-49_1.jpg
+          0.86 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-49_1.jpg
+
+238       0.74 MB             60af49b44fcf1b7a7229507a28c5c8b0   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-267_1.jpg
+          0.74 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-267_1.jpg
+
+239       0.86 MB             16d1ee32df24317850b39e445d25cdde   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-45_1.jpg
+          0.86 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-45_1.jpg
+          0.86 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-45_1.jpg
+
+240       0.22 MB             1f978675005ca29346d2dffa8171163b   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-322_1.jpg
+          0.22 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-322_1.jpg
+
+241       0.78 MB             ac62cdafbda9334ecb03ff7dbf93bbe    D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-137_1.jpg
+          0.78 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-137_1.jpg
+
+242       0.70 MB             56a2fbae8cef189691ab72732d34f3f8   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-147_1.jpg
+          0.70 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-147_1.jpg
+
+243       0.62 MB             1abfbc61e0b1a267acc23f5b1ff57651   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-102_1.jpg
+          0.62 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-102_1.jpg
+
+244       0.0078 MB           5479dc6770b5a34e7a25b7edc2687c4c   D:\Calibre\Calibre Portable\Calibre Settings\caches\qwe\dp\sp\DawnCache\data_3
+          0.0078 MB                                              D:\Calibre\Calibre Portable\Calibre Settings\caches\qwe\dp\sp\GPUCache\data_3
+          0.0078 MB                                              D:\Calibre\Calibre Portable\Calibre Settings\caches\qwe\viewer-lookup\sp\DawnCache\data_3
+          0.0078 MB                                              D:\Calibre\Calibre Portable\Calibre Settings\caches\qwe\viewer-lookup\sp\GPUCache\data_3
+
+245       0.67 MB             7446db0990200defd685f24c7f2a3f7f   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-250_1.jpg
+          0.67 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-250_1.jpg
+
+246       0.80 MB             cc0c1061990307a971e733b7114a3a57   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-331_1.jpg
+          0.80 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-331_1.jpg
+
+247       0.87 MB             dd60f43983ba167f424c993cfbf6810b   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-442_1.jpg
+          0.87 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-442_1.jpg
+
+248       0.82 MB             fa87f93f97538f48f1912ef5a34abd8c   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-107_1.jpg
+          0.82 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-107_1.jpg
+
+249       0.81 MB             aed9f662c2fe16137cb11ca696040887   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-317_1.jpg
+          0.81 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-317_1.jpg
+
+250       0.73 MB             cf208085a428ff3d37b363a1888b3a37   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-415_1.jpg
+          0.73 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-415_1.jpg
+
+251       0.80 MB             4cfdfaa5ce55af962703deea06a362b0   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-433_1.jpg
+          0.80 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-433_1.jpg
+
+252       0.78 MB             3223d6a419729fb911c0cb6c252bf32f   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-327_1.jpg
+          0.78 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-327_1.jpg
+
+253       0.81 MB             19ad4dab8daae1e419fefece1d4b242a   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-108_1.jpg
+          0.81 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-108_1.jpg
+
+254       0.84 MB             36d76b3ae221c344ded69feed14d64ae   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-92_1.jpg
+          0.84 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-92_1.jpg
+          0.84 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-92_1.jpg
+
+255       0.89 MB             dafe48bd23c04d44fd333fcfd150aeb4   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-59_1.jpg
+          0.89 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-59_1.jpg
+          0.89 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-59_1.jpg
+
+256       0.0000 MB           cbf29ce4842223253ffffffffffe5      D:\Calibre\Calibre Portable\Calibre Settings\caches\qwe\viewer-lookup\sp\Cookies-journal
+          0.0000 MB                                              D:\Calibre\Calibre Portable\Calibre Settings\caches\qwe\viewer-lookup\sp\Favicons-journal
+          0.0000 MB                                              D:\Calibre\Calibre Portable\Calibre Settings\caches\qwe\viewer-lookup\sp\History-journal
+          0.0000 MB                                              D:\Calibre\Calibre Portable\Calibre Settings\caches\qwe\viewer-lookup\sp\Local Storage\leveldb\000003.log
+          0.0000 MB                                              D:\Calibre\Calibre Portable\Calibre Settings\caches\qwe\viewer-lookup\sp\Local Storage\leveldb\LOCK
+          0.0000 MB                                              D:\Calibre\Calibre Portable\Calibre Settings\caches\qwe\viewer-lookup\sp\Session Storage\LOCK
+
+257       0.37 MB             886705695a2e1498c4bab61dd4061e2c   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-233_1.jpg
+          0.37 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-233_1.jpg
+
+258       0.70 MB             39aa2a156a33a8cfc6bb63d6476c675d   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-437_1.jpg
+          0.70 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-437_1.jpg
+
+259       0.27 MB             7f06bd286fba7f17c33b831a9d6edd67   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-231_1.jpg
+          0.27 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-232_1.jpg
+          0.27 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-231_1.jpg
+          0.27 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-232_1.jpg
+
+260       0.77 MB             312aa5f4afaec5ac3650c4290c6e7f82   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-347_1.jpg
+          0.77 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-347_1.jpg
+
+261       0.72 MB             4da7bce16c51c17d72981c104344d097   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-116_1.jpg
+          0.72 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-116_1.jpg
+
+262       0.70 MB             5d0513a4fef54086d4708d6f8c95f806   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-212_1.jpg
+          0.70 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-212_1.jpg
+
+263       0.59 MB             8febd93d810a281dbe02cf9bdedeecf    D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-460_1.jpg
+          0.59 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-460_1.jpg
+
+264       0.80 MB             f78b2f7108c4a83fe367e3df55e586e9   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-179_1.jpg
+          0.80 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-179_1.jpg
+
+265       0.81 MB             d0eeb5648a18f6f9c3c8ad586c41b2e1   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-410_1.jpg
+          0.81 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-410_1.jpg
+
+266       0.83 MB             ae1bc2bf3dc866ee9f32f45736a934d0   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-194_1.jpg
+          0.83 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-194_1.jpg
+
+267       0.83 MB             b990feefd33feac4937d0aac5e078fae   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-309_1.jpg
+          0.83 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-309_1.jpg
+
+268       0.58 MB             3ebe2df5778459989b6f73676c834792   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-30_1.jpg
+          0.58 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-30_1.jpg
+          0.58 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-30_1.jpg
+
+269       0.82 MB             ba0609ac02b0eaacb3358a247c509b6a   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-379_1.jpg
+          0.82 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-379_1.jpg
+
+270       0.69 MB             c857e436ece81ae868c1acb9bbac7a0    D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-190_1.jpg
+          0.69 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-190_1.jpg
+
+271       0.76 MB             62422d870c772861f119dcf8597d6413   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-131_1.jpg
+          0.76 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-131_1.jpg
+
+272       0.52 MB             6c082b3d0d81ba73256871308eabac53   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-65_1.jpg
+          0.52 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-65_1.jpg
+          0.52 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-65_1.jpg
+
+273       0.82 MB             51bffeb24846324d5c63eb87bd9072ab   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-350_1.jpg
+          0.82 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-350_1.jpg
+
+274       0.85 MB             b6a63d280d210b464f382a3e8557d9c0   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-128_1.jpg
+          0.85 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-128_1.jpg
+
+275       0.77 MB             37ba08f82e393d5518154b2da24ffcf    D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-349_1.jpg
+          0.77 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-349_1.jpg
+
+276       0.82 MB             e7e36fea804bdf5fc334f58b7aa7c35    D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-124_1.jpg
+          0.82 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-124_1.jpg
+
+277       0.82 MB             bd11a55f8dfd989cf04021bc6eee2ff6   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-357_1.jpg
+          0.82 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-357_1.jpg
+
+278       0.84 MB             cba4c3a18ac5156e74a6aff63bb001e4   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-281_1.jpg
+          0.84 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-281_1.jpg
+
+279       0.80 MB             57b213913527d5d39d4eb47fb879ac1b   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-145_1.jpg
+          0.80 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-145_1.jpg
+
+280       0.81 MB             4c0578e925e50076bc53ed53fbf915fa   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-263_1.jpg
+          0.81 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-263_1.jpg
+
+281       0.81 MB             3545320d0564e7d7bb646e6dad3af1f1   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-330_1.jpg
+          0.81 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-330_1.jpg
+
+282       0.71 MB             9ab96b5a2efbdced4f80f0ceac2a700b   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-69_1.jpg
+          0.71 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-69_1.jpg
+          0.71 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-69_1.jpg
+
+283       0.81 MB             c8c2f156606d76e6935aec0ff3af9f1a   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-177_1.jpg
+          0.81 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-177_1.jpg
+
+284       0.53 MB             f8543403ca6cc1237d0caed7dff18f0d   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-374_1.jpg
+          0.53 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-374_1.jpg
+
+285       10.62 MB            a49ee2be3876526f229f2ff43c987d5d   D:\Calibre\Calibre Portable\Calibre Library\Karen Armstrong\Historia de Jerusalen (5)\Historia de Jerusalen - Karen Armstrong.pdf
+          10.62 MB                                               D:\Calibre\Libros\Historia de Jerusalen         - Karen Armstrong -.pdf
+
+286       0.83 MB             759005c76cece0b84d9bf683d1175bf6   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-362_1.jpg
+          0.83 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-362_1.jpg
+
+287       0.15 MB             b084488612eaea92a34d00042e8f91e0   D:\Calibre\Calibre Portable\Calibre Library\.caltrash\b\6\cover.jpg
+          0.15 MB                                                D:\Calibre\Calibre Portable\Calibre Library\Desconocido\Historia universal antigua Grecia y (9)\cover.jpg
+
+288       0.59 MB             d7dcc63e2f5a19805226759dcb7466a4   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-425_1.jpg
+          0.59 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-425_1.jpg
+
+289       0.81 MB             bbd8086ceef3ced3c5c9e1192696600b   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-376_1.jpg
+          0.81 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-376_1.jpg
+
+290       0.74 MB             d24d5cb559e2881effde9be56fad7094   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-290_1.jpg
+          0.74 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-290_1.jpg
+
+291       0.84 MB             68463d13005f980a96526705cc2db04    D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-130_1.jpg
+          0.84 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-130_1.jpg
+
+292       0.58 MB             1f1448cf33e0694bad9d720e7d413dcd   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-6_1.jpg
+          0.58 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-6_1.jpg
+          0.58 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-6_1.jpg
+
+293       0.16 MB             ed853d167c139e4070234fa9c68463cc   D:\Calibre\Libros\Libros_AZ\Kiyosaki Robert, Padre Rico Padre Pobre.zip
+          0.16 MB                                                D:\Calibre\Libros\Libros_AZ\Padre Rico Padre Pobre.zip
+
+294       0.52 MB             cfb669deb069d88073d3ca9e8a5ce2be   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-4_1.jpg
+          0.52 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-4_1.jpg
+          0.52 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-4_1.jpg
+
+295       28.03 MB            d385495bcd8a860d5691bafdeafa56f9   D:\Calibre\Calibre Portable\Calibre Library\FernA!ndez Uriel, Pilar(Author)\Historia antigua universal II_ el mu (10)\Historia antigua universal II_ - FernA!ndez Uriel, Pilar(Author).pdf
+          28.03 MB                                               D:\Calibre\Libros\Historia antigua universal II. El mundo griego ( PDFDrive ).pdf
+
+296       0.66 MB             ade285936499984ad87dfa70d72e3b44   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-351_1.jpg
+          0.66 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-351_1.jpg
+
+297       0.039 MB            9d5badf3f4a6a5dd1e4e61c3be97c2a9   D:\Calibre\Calibre Portable\Calibre Library\John Schember\Quick Start Guide (1)\cover.jpg
+          0.039 MB                                               D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-30oa0fmh\images\cover.jpg
+
+298       0.82 MB             8bcfd4ecaa1a3162ab54cc35f4b8e0     D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-36_1.jpg
+          0.82 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-36_1.jpg
+          0.82 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-36_1.jpg
+
+299       1.52 MB             18d8c6b245854db7c9d44f27600f5919   D:\Calibre\Calibre Portable\Calibre Library\Judith G. Coffin\Breve historia de occidente (2)\Breve historia de occidente - Judith G. Coffin.epub
+          1.52 MB                                                D:\Calibre\Libros\Breve Historia de Occidente - Judith G. Coffin.epub
+
+300       4.97 MB             36e66838a01a282dffdf481af56526ab   D:\Calibre\Calibre Portable\Calibre Library\Judith G. Coffin\Breve Historia de Occidente (7)\Breve Historia de Occidente - Judith G. Coffin.pdf
+          4.97 MB                                                D:\Calibre\Libros\Breve Historia de Occidente - Judith G. Coffin.pdf
+
+301       0.75 MB             2ab533ab77437b0e4e78abf249afe772   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-150_1.jpg
+          0.75 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-150_1.jpg
+
+302       0.62 MB             877a8af23c97f7caf9cfad42619e7d9c   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-268_1.jpg
+          0.62 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-268_1.jpg
+
+303       0.69 MB             6a5d721eb04ecd4157e43fe9bd8eca01   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-337_1.jpg
+          0.69 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-337_1.jpg
+
+304       0.80 MB             1af186f30e1efcb41373b6cd80819ece   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-320_1.jpg
+          0.80 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-320_1.jpg
+
+305       0.79 MB             c8d6727df34e7072cfc294b2c062850c   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-328_1.jpg
+          0.79 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-328_1.jpg
+
+306       0.72 MB             aa1df92639525ee0aa0186f0b6a5ce88   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-114_1.jpg
+          0.72 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-114_1.jpg
+
+307       0.81 MB             e7b3a868275ed4154846c2c912286e27   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-77_1.jpg
+          0.81 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-77_1.jpg
+          0.81 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-77_1.jpg
+
+308       0.79 MB             1928a36a33f1d3d07bea0a0f55b02eb2   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-234_1.jpg
+          0.79 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-234_1.jpg
+
+309       0.85 MB             8472bf181633fba343c6316997f6eba    D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-100_1.jpg
+          0.85 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-100_1.jpg
+
+310       0.72 MB             aca0cc283cbafd5bf07d24defd3d2db    D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-138_1.jpg
+          0.72 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-138_1.jpg
+
+311       0.81 MB             a65c4dac89b9a6e158c5ac5816f5b013   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-101_1.jpg
+          0.81 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-101_1.jpg
+
+312       0.86 MB             ca85329e4423ef7e1664b26f78ee8cd2   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-104_1.jpg
+          0.86 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-104_1.jpg
+
+313       0.84 MB             474bf883ee4eda249673a904d5dcdc02   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-105_1.jpg
+          0.84 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-105_1.jpg
+
+314       0.83 MB             aef75670f86e5e1dc8f3970a2ca031a9   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-242_1.jpg
+          0.83 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-242_1.jpg
+
+315       0.84 MB             b96caab5d83708ade4c828aad48788d3   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-106_1.jpg
+          0.84 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-106_1.jpg
+
+316       0.84 MB             352b14218d59a6a0533b48f7cd905c3c   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-56_1.jpg
+          0.84 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-56_1.jpg
+          0.84 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-56_1.jpg
+
+317       0.85 MB             3bcbbb9bc4f281745f20bab41a43f40e   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-109_1.jpg
+          0.85 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-109_1.jpg
+
+318       0.39 MB             acb6c9f974cb475d11bda8d809f96575   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-10_1.jpg
+          0.39 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-10_1.jpg
+          0.39 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-10_1.jpg
+
+319       1.40 MB             c8a7323a203a62bf52b6e94cda090cc7   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-112_1.jpg
+          1.40 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-112_1.jpg
+
+320       1.39 MB             c4dafa330ea1b2f68f1cfe4982656806   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-113_1.jpg
+          1.39 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-113_1.jpg
+
+321       0.80 MB             d076f928ea0a8917c4949841c2291e15   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-354_1.jpg
+          0.80 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-354_1.jpg
+
+322       0.81 MB             bddda0d25ee744b4f100e6d89f1da0ee   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-210_1.jpg
+          0.81 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-210_1.jpg
+
+323       0.75 MB             38a423d3b9f303415761b7bc0fee30f1   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-115_1.jpg
+          0.75 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-115_1.jpg
+
+324       0.85 MB             a0b4da80a5643ec15bfa2917e57a68c1   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-119_1.jpg
+          0.85 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-119_1.jpg
+
+325       0.38 MB             8b0da89deb280f28acee8d91cd302372   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-11_1.jpg
+          0.38 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-11_1.jpg
+          0.38 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-11_1.jpg
+
+326       0.83 MB             e86bd174f495806ad597b89269c5162c   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-120_1.jpg
+          0.83 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-120_1.jpg
+
+327       0.64 MB             472bd4d5cb6b516ba079181d9b1627a9   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-121_1.jpg
+          0.64 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-121_1.jpg
+
+328       0.88 MB             7f030b15e4b765f04e0306fc1c7116be   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-125_1.jpg
+          0.88 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-125_1.jpg
+
+329       0.85 MB             7f7c6118343f4e28bbe4a899bddb275e   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-39_1.jpg
+          0.85 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-39_1.jpg
+          0.85 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-39_1.jpg
+
+330       0.84 MB             ab7bd19b99328861ee4debd861ff1903   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-126_1.jpg
+          0.84 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-126_1.jpg
+
+331       0.80 MB             2df6c0381e958c0550756db0447d5df5   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-129_1.jpg
+          0.80 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-129_1.jpg
+
+332       0.85 MB             88c4661b836425a343975953dd785d89   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-132_1.jpg
+          0.85 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-132_1.jpg
+
+333       0.78 MB             d4a4e0f5287a3c1ddde84cb73052aa6b   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-133_1.jpg
+          0.78 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-133_1.jpg
+
+334       0.82 MB             b05a9957a6048f23526ae7fff7137d1b   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-134_1.jpg
+          0.82 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-134_1.jpg
+
+335       0.83 MB             86a6e0159c6d6a51b96877fbaf3af003   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-143_1.jpg
+          0.83 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-143_1.jpg
+
+336       0.88 MB             797818132eff3962aef931b92d4f916    D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-338_1.jpg
+          0.88 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-338_1.jpg
+
+337       0.68 MB             fb3866ba764eb6d72e55ee5afac6bdd1   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-139_1.jpg
+          0.68 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-139_1.jpg
+
+338       0.57 MB             7bb7b72621563993f845cb37c56e018b   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-140_1.jpg
+          0.57 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-140_1.jpg
+
+339       0.87 MB             d802db93e041f05d2debac3e0ff9d5ef   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-142_1.jpg
+          0.87 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-142_1.jpg
+
+340       0.82 MB             90220cb6762174633df18178f8026865   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-144_1.jpg
+          0.82 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-144_1.jpg
+
+341       0.62 MB             852ac913587c2c0e2f9fc10ffda9e534   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-146_1.jpg
+          0.62 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-146_1.jpg
+
+342       0.77 MB             59208eeb8c49bfabac8a81d0a99efd65   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-148_1.jpg
+          0.77 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-148_1.jpg
+
+343       0.83 MB             4ec93f1d37f82e0545e8bdfba77bd057   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-152_1.jpg
+          0.83 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-152_1.jpg
+
+344       0.85 MB             392c131923a627997fa227a34ccc409f   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-361_1.jpg
+          0.85 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-361_1.jpg
+
+345       0.80 MB             48054f37f21ac684c2a343a77534b690   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-155_1.jpg
+          0.80 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-155_1.jpg
+
+346       0.79 MB             7de627fb6f00e21730bf9453f89b19b7   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-157_1.jpg
+          0.79 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-157_1.jpg
+
+347       0.66 MB             d74187f129a77d7a0a44067ab028d7     D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-321_1.jpg
+          0.66 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-321_1.jpg
+
+348       0.70 MB             f832ff6dce80056d650d09e284630499   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-183_1.jpg
+          0.70 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-183_1.jpg
+
+349       0.86 MB             3c9396697229f498cf96b5aa25d9b0b0   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-158_1.jpg
+          0.86 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-158_1.jpg
+
+350       0.87 MB             725f12d207577cf43fd8577bb97d97f    D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-15_1.jpg
+          0.87 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-15_1.jpg
+          0.87 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-15_1.jpg
+
+351       0.78 MB             c0e9f332a1c312c446b65e284810f32c   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-162_1.jpg
+          0.78 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-162_1.jpg
+
+352       0.82 MB             52640af794c5aa37e660fd53b7071521   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-226_1.jpg
+          0.82 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-226_1.jpg
+
+353       0.84 MB             c93e9064b3cc357cf504f6061d968234   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-311_1.jpg
+          0.84 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-311_1.jpg
+
+354       0.71 MB             e22d228140d0127a82dd1495ecf1293    D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-191_1.jpg
+          0.71 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-191_1.jpg
+
+355       0.83 MB             6e14ec9947d6597abd6ac1e687e5a068   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-160_1.jpg
+          0.83 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-160_1.jpg
+
+356       0.81 MB             e1e7080299c6637b8c75fd5d540bbb61   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-163_1.jpg
+          0.81 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-163_1.jpg
+
+357       0.63 MB             636e6b458f1661af4fce66dda78c234f   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-165_1.jpg
+          0.63 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-165_1.jpg
+
+358       0.52 MB             3839aae340bb278fe405cbef77a28d2b   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-166_1.jpg
+          0.52 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-166_1.jpg
+
+359       0.75 MB             c253f6e59cdfad3f87b27d555611a19    D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-247_1.jpg
+          0.75 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-247_1.jpg
+
+360       0.83 MB             c99f8b6a8f7dfc62fb475ec0916a1a44   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-168_1.jpg
+          0.83 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-168_1.jpg
+
+361       0.85 MB             99f47d94f0e3b72e6076335029dfc8ae   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-169_1.jpg
+          0.85 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-169_1.jpg
+
+362       0.67 MB             e933fcd679eb8f2238257424eca3f1ca   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-16_1.jpg
+          0.67 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-16_1.jpg
+          0.67 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-16_1.jpg
+
+363       0.86 MB             19e0ccf54eced3b28d91ccc848ec8012   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-171_1.jpg
+          0.86 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-171_1.jpg
+
+364       0.78 MB             40cd5a83f1add8b81fe5d5bb72f84930   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-172_1.jpg
+          0.78 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-172_1.jpg
+
+365       0.83 MB             2f96a8ae45e7b874b2ff56cf09ac5124   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-261_1.jpg
+          0.83 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-261_1.jpg
+
+366       0.76 MB             2a16e9d3049b2243498098bf7433908f   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-173_1.jpg
+          0.76 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-173_1.jpg
+
+367       29.28 MB            7920fef8a532a3f132eb2766ed6b4109   D:\Calibre\Calibre Portable\Calibre Library\Desconocido\Armstrong.Karen Una-historia-de-Dios (3)\Armstrong.Karen Una-historia-de - Desconocido.pdf
+          29.28 MB                                               D:\Calibre\Libros\Armstrong.Karen_Una-historia-de-Dios.pdf
+
+368       0.75 MB             ae0272cdfa829ae91fd7796d8a26030    D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-356_1.jpg
+          0.75 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-356_1.jpg
+
+369       0.76 MB             67ad72033406465a64413df28d8275e    D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-91_1.jpg
+          0.76 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-91_1.jpg
+          0.76 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-91_1.jpg
+
+370       0.17 MB             5b30497e20ac1dc8c8fbee643c8b534e   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-175_1.jpg
+          0.17 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-175_1.jpg
+
+371       0.87 MB             91e823612fedcf4eeb678dab8ea87438   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-178_1.jpg
+          0.87 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-178_1.jpg
+
+372       0.72 MB             a435a90ddf4358d3c3b314b0711a61c5   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-340_1.jpg
+          0.72 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-340_1.jpg
+
+373       0.74 MB             ad519bab341c64d910dc99666c168cd    D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-17_1.jpg
+          0.74 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-17_1.jpg
+          0.74 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-17_1.jpg
+
+374       0.77 MB             d43d1acc83a47abfbcc6bfd6df072e35   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-181_1.jpg
+          0.77 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-181_1.jpg
+
+375       0.54 MB             8a1d443f8c33480ce54fe6e671773294   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-182_1.jpg
+          0.54 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-182_1.jpg
+
+376       0.85 MB             38fb4230e9fa2ab3a1d5889b9c6fb063   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-308_1.jpg
+          0.85 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-308_1.jpg
+
+377       0.84 MB             87b5cb90a7764d6726d43112898adf99   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-186_1.jpg
+          0.84 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-186_1.jpg
+
+378       0.86 MB             a2760ea56ccb54ff414e03e239f20da9   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-188_1.jpg
+          0.86 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-188_1.jpg
+
+379       0.87 MB             8b7915f0e644dbc18cb2365c68c3e1ed   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-18_1.jpg
+          0.87 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-18_1.jpg
+          0.87 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-18_1.jpg
+
+380       0.82 MB             20d1e2637341bfcaaddaa8b6f7ae96ba   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-193_1.jpg
+          0.82 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-193_1.jpg
+
+381       0.61 MB             97cf98a751e5b10d326e4ae36853d8c    D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-224_1.jpg
+          0.61 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-224_1.jpg
+
+382       0.81 MB             fe78a9d8a81b60643277a939c72ea8cc   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-197_1.jpg
+          0.81 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-197_1.jpg
+
+383       0.86 MB             d2962919e0f8f3be27348dfc38cceaa4   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-198_1.jpg
+          0.86 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-198_1.jpg
+
+384       0.81 MB             d17c4a62edb1228952f1e1e97de0ed81   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-199_1.jpg
+          0.81 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-199_1.jpg
+
+385       0.86 MB             ff1a2969143657116c14622369f42681   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-200_1.jpg
+          0.86 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-200_1.jpg
+
+386       0.57 MB             f142566a920a677e3a7d5f1f93dd7b0e   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-432_1.jpg
+          0.57 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-432_1.jpg
+
+387       0.82 MB             6560e771ef6d15105824307785d97e24   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-201_1.jpg
+          0.82 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-201_1.jpg
+
+388       0.79 MB             807a023165464b723b60414790af8d8c   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-324_1.jpg
+          0.79 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-324_1.jpg
+
+389       0.68 MB             f83900b7c58938b8e299e37ed2fda482   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-205_1.jpg
+          0.68 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-205_1.jpg
+
+390       132.13 MB           63d66e5244ad36e5c7609a50889cf0af   D:\Calibre\Calibre Portable\Calibre Library\.caltrash\b\6\Historia universal antigua Grec - Desconocido.pdf
+          132.13 MB                                              D:\Calibre\Calibre Portable\Calibre Library\Desconocido\Historia universal antigua Grecia y (9)\Historia universal antigua Grec - Desconocido.pdf
+          132.13 MB                                              D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\src.pdf
+
+391       0.83 MB             5f0fcc0f9ef904aea6a0e64fba652fec   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-118_1.jpg
+          0.83 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-118_1.jpg
+
+392       0.85 MB             d35b2719c125adc8cb7325434ee25a52   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-35_1.jpg
+          0.85 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-35_1.jpg
+          0.85 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-35_1.jpg
+
+393       0.40 MB             92623649a537abe6d9df27769e7cbba4   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-206_1.jpg
+          0.40 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-207_1.jpg
+          0.40 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-206_1.jpg
+          0.40 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-207_1.jpg
+
+394       0.67 MB             e1f15cd3beb97da0320f417bc00f1ea    D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-208_1.jpg
+          0.67 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-208_1.jpg
+
+395       0.83 MB             181bda1c87a2353ac62aeaac26a6b7aa   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-209_1.jpg
+          0.83 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-209_1.jpg
+
+396       0.79 MB             51cab5f46739398cd6478ac4dc6f2812   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-243_1.jpg
+          0.79 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-243_1.jpg
+
+397       0.79 MB             5adf8d5be749ef1826dfcb7b39acdfe    D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-20_1.jpg
+          0.79 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-20_1.jpg
+          0.79 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-20_1.jpg
+
+398       0.55 MB             5b87dfe35e4ba89cd415a36b382c4966   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-213_1.jpg
+          0.55 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-213_1.jpg
+
+399       0.73 MB             5916a6093f9082c18282959f16e86ba1   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-28_1.jpg
+          0.73 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-28_1.jpg
+          0.73 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-28_1.jpg
+
+400       0.85 MB             dcb4ad6489d38973ef23608845fd697    D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-215_1.jpg
+          0.85 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-215_1.jpg
+
+401       0.73 MB             ebc55930b67ff2eb55f306f9018874f    D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-216_1.jpg
+          0.73 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-216_1.jpg
+
+402       0.57 MB             220c7377206473b5f0ddcfa1a75ddf39   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-217_1.jpg
+          0.57 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-217_1.jpg
+
+403       0.67 MB             3b0d144f4ec4be938ae3603364a4a90f   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-218_1.jpg
+          0.67 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-218_1.jpg
+
+404       0.81 MB             b29221e40dda19d922d44b0bb26c4f29   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-246_1.jpg
+          0.81 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-246_1.jpg
+
+405       0.64 MB             5ad3964e66ac1ea11234ce41e75fdf25   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-219_1.jpg
+          0.64 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-219_1.jpg
+
+406       0.46 MB             229b3115775d06d0f0d6de32c87c16e    D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-220_1.jpg
+          0.46 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-220_1.jpg
+
+407       0.84 MB             fb16196dd0a92972a1e5f3d4f89cde5    D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-221_1.jpg
+          0.84 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-221_1.jpg
+
+408       0.82 MB             7fa524f8011ee3954690e85d1bcf22a7   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-222_1.jpg
+          0.82 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-222_1.jpg
+
+409       0.85 MB             5c071d782b2a6dbce2c8a0121cab82da   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-156_1.jpg
+          0.85 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-156_1.jpg
+
+410       0.79 MB             6cdf111e5592a52e2fe28e4fd42c8532   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-229_1.jpg
+          0.79 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-229_1.jpg
+
+411       0.72 MB             dfe027eb63931227138e79341f58eaa3   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-22_1.jpg
+          0.72 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-22_1.jpg
+          0.72 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-22_1.jpg
+
+412       1.48 MB             d047ff866dd24b094d9027715c7a776f   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-111_1.jpg
+          1.48 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-111_1.jpg
+
+413       0.64 MB             adf7a32e7203ec2f64076ae0d3ef9465   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-230_1.jpg
+          0.64 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-230_1.jpg
+
+414       0.79 MB             532a56cd9b7ab7fef601081d37202cf    D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-235_1.jpg
+          0.79 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-235_1.jpg
+
+415       0.83 MB             376b41d7454393c0a696a767f27b2834   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-236_1.jpg
+          0.83 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-236_1.jpg
+
+416       0.71 MB             28f7395078d61a3849f52d6c1997aa2e   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-237_1.jpg
+          0.71 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-237_1.jpg
+
+417       39.79 MB            30b1d4c42e65039bb5e92a3263221927   D:\Calibre\Calibre Portable\Calibre Library\Desconocido\Historia de Grecia Antigua ( etc.) ( (4)\Historia de Grecia Antigua ( et - Desconocido.pdf
+          39.79 MB                                               D:\Calibre\Libros\Historia_de_Grecia_Antigua_(_etc.)_(z-lib.org).pdf
+
+418       0.86 MB             86bd70eefedc410b377d59d1a274b9c5   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-240_1.jpg
+          0.86 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-240_1.jpg
+
+419       0.58 MB             9725941e73dd6060bb42c9424cf01802   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-414_1.jpg
+          0.58 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-414_1.jpg
+
+420       0.82 MB             a0f8623acee7100c81b1a82e708fdbca   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-241_1.jpg
+          0.82 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-241_1.jpg
+
+421       0.79 MB             27586db413cb9655fcbdef1a0879ac9    D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-244_1.jpg
+          0.79 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-244_1.jpg
+
+422       0.72 MB             5f9ee46368ace0e68b636f7d1c39768c   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-248_1.jpg
+          0.72 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-248_1.jpg
+
+423       0.74 MB             a9e1ef30312dbd2b224f69b22826fddd   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-24_1.jpg
+          0.74 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-24_1.jpg
+          0.74 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-24_1.jpg
+
+424       0.56 MB             a31459f552d4a55e666e27672a28c29e   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-251_1.jpg
+          0.56 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-251_1.jpg
+
+425       0.85 MB             a87dfd8814680aa4a12c438cd26ac66a   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-254_1.jpg
+          0.85 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-254_1.jpg
+
+426       0.84 MB             651ee76babcf2011564e3cefd94192b3   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-82_1.jpg
+          0.84 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-82_1.jpg
+          0.84 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-82_1.jpg
+
+427       0.60 MB             122c33caf925430b165f60601a740e11   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-257_1.jpg
+          0.60 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-257_1.jpg
+
+428       0.58 MB             86a206a007d6a158371750db457da9b2   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-258_1.jpg
+          0.58 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-258_1.jpg
+
+429       0.82 MB             5b1e4a96956dd7b5dd9222fd0345fb2b   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-260_1.jpg
+          0.82 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-260_1.jpg
+
+430       0.82 MB             8fc75475988f996cd2729a543d3f9af8   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-262_1.jpg
+          0.82 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-262_1.jpg
+
+431       0.79 MB             57cbdfaa84b481309fa53a482aa71534   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-264_1.jpg
+          0.79 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-264_1.jpg
+
+432       0.81 MB             ed120d5297f4d468c5ad9874a030e32    D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-266_1.jpg
+          0.81 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-266_1.jpg
+
+433       0.78 MB             74dc2045472d09701e058d49c441cde6   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-271_1.jpg
+          0.78 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-271_1.jpg
+
+434       0.87 MB             7e8f5f7bc21f00b9d8f03814e04050af   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-272_1.jpg
+          0.87 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-272_1.jpg
+
+435       0.84 MB             af221c1ae609012b432137e994a25a41   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-274_1.jpg
+          0.84 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-274_1.jpg
+
+436       0.80 MB             e4856eaee7bcd86bc520b1031f25ff2    D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-275_1.jpg
+          0.80 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-275_1.jpg
+
+437       0.82 MB             1eccf2eacfd73c2e19cde2e0baaab218   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-278_1.jpg
+          0.82 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-278_1.jpg
+
+438       0.87 MB             488c85556262e88433661025ffa524b0   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-27_1.jpg
+          0.87 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-27_1.jpg
+          0.87 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-27_1.jpg
+
+439       0.82 MB             f495e18a35d741a5923ce233a83ffdc1   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-280_1.jpg
+          0.82 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-280_1.jpg
+
+440       0.81 MB             7cdebe89aff54305d1098d9b1b8bad87   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-283_1.jpg
+          0.81 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-283_1.jpg
+
+441       0.80 MB             e8818c5c071f579da213b1e3bdde1d71   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-187_1.jpg
+          0.80 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-187_1.jpg
+
+442       0.79 MB             6d1d0b204cdb57c6d8aab5944e374058   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-291_1.jpg
+          0.79 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-291_1.jpg
+
+443       0.84 MB             d2287a4e2e84cbb953a4d528c02b97ff   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-284_1.jpg
+          0.84 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-284_1.jpg
+
+444       0.63 MB             f7e11ae2085d0faab9dcbced7ec05324   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-288_1.jpg
+          0.63 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-288_1.jpg
+
+445       0.62 MB             5cff95a26db8358648e55d69bc269e7e   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-289_1.jpg
+          0.62 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-289_1.jpg
+
+446       0.80 MB             b8df018ae4a4a9f49c17965c01ad9302   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-292_1.jpg
+          0.80 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-292_1.jpg
+
+447       0.80 MB             5c3717077e3be5541cc9030e0668be2e   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-293_1.jpg
+          0.80 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-293_1.jpg
+
+448       0.82 MB             920478cd4fc696c55b60ad33fc18d0bd   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-295_1.jpg
+          0.82 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-295_1.jpg
+
+449       0.84 MB             35ed1b6a17985c2e65c06586a16b5528   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-297_1.jpg
+          0.84 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-297_1.jpg
+
+450       0.86 MB             9878d50e0897cfadf52b37b964b106d3   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-300_1.jpg
+          0.86 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-300_1.jpg
+
+451       0.87 MB             fab934417dfad010367f5ea43da09228   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-302_1.jpg
+          0.87 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-302_1.jpg
+
+452       0.69 MB             c8a0cfb0c77c55045572bbfe7cbd25ec   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-303_1.jpg
+          0.69 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-303_1.jpg
+
+453       0.63 MB             638cc943dac135cd3ad388eb17ef9339   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-305_1.jpg
+          0.63 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-305_1.jpg
+
+454       0.83 MB             2d6d10cf2ce6c3bca0ca1e049d70a9b2   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-312_1.jpg
+          0.83 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-312_1.jpg
+
+455       0.82 MB             85f519a0dfb5df98cb27d464878f487    D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-313_1.jpg
+          0.82 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-313_1.jpg
+
+456       0.87 MB             643a9b699c8ac07ae71b65dedf4fde76   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-84_1.jpg
+          0.87 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-84_1.jpg
+          0.87 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-84_1.jpg
+
+457       0.83 MB             a78b0aac94ca4b46ecc723a5238f233c   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-402_1.jpg
+          0.83 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-402_1.jpg
+
+458       0.69 MB             5e341ce9af3c57cf28fbe95b549d479f   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-319_1.jpg
+          0.69 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-319_1.jpg
+
+459       0.86 MB             4009c769140b20f92a477ad2f53641fb   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-136_1.jpg
+          0.86 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-136_1.jpg
+
+460       0.82 MB             2e8ba5c614d23a36a4f8b8e53aa22524   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-314_1.jpg
+          0.82 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-314_1.jpg
+
+461       0.81 MB             6f0de663cceb32cd487aca3c10431d15   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-427_1.jpg
+          0.81 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-427_1.jpg
+
+462       0.84 MB             fb9bff6ba557c32a88386e058a94d1c    D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-316_1.jpg
+          0.84 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-316_1.jpg
+
+463       0.79 MB             70bf0312d709ff1c06f05bb044d6571    D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-253_1.jpg
+          0.79 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-253_1.jpg
+
+464       0.79 MB             75e137faac9614d2da2b2b24cb8a4d18   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-325_1.jpg
+          0.79 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-325_1.jpg
+
+465       0.88 MB             3d352b49fd3c3b47e047bac8f6844a4b   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-32_1.jpg
+          0.88 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-32_1.jpg
+          0.88 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-32_1.jpg
+
+466       0.79 MB             43668868feae5c865160c05ed7bea5fe   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-339_1.jpg
+          0.79 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-339_1.jpg
+
+467       0.79 MB             2608930e6bbb19002afc68f766b21e58   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-333_1.jpg
+          0.79 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-333_1.jpg
+
+468       0.80 MB             51d7684471133f5232e9761b9d287a34   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-334_1.jpg
+          0.80 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-334_1.jpg
+
+469       0.85 MB             ec0afd3be657cadaeb0d0763167720fa   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-335_1.jpg
+          0.85 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-335_1.jpg
+
+470       0.67 MB             626adfd5637519a5414f8997ec943f87   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-336_1.jpg
+          0.67 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-336_1.jpg
+
+471       0.63 MB             ed3dc42000d4ca6757ae4742a767f7d    D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-33_1.jpg
+          0.63 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-33_1.jpg
+          0.63 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-33_1.jpg
+
+472       0.61 MB             efab3a44efa4aeb012af7bbdd756b52a   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-341_1.jpg
+          0.61 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-341_1.jpg
+
+473       0.39 MB             6b291d77b34a99c8891d08dcd0fd264    D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-12_1.jpg
+          0.39 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-12_1.jpg
+          0.39 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-y3ffz7bj\index-12_1.jpg
+
+474       0.78 MB             8d82e6326d3e34bff0324d09e5be4511   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-346_1.jpg
+          0.78 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-346_1.jpg
+
+475       0.48 MB             4ca3819f06632ebcfc15b93e04f44af    D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-352_1.jpg
+          0.48 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-352_1.jpg
+
+476       0.79 MB             a1ff7dee088602590391d5579b3bb0d    D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-355_1.jpg
+          0.79 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-355_1.jpg
+
+477       0.78 MB             91f747119d752732d63e95040cbf88c8   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-363_1.jpg
+          0.78 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-363_1.jpg
+
+478       0.83 MB             624b12e6ed577b38e3d6a4c1a7929686   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-364_1.jpg
+          0.83 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-364_1.jpg
+
+479       0.81 MB             bd0b3335375d8b9def63ede65d13221b   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-365_1.jpg
+          0.81 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-365_1.jpg
+
+480       0.82 MB             7c5ce49538a2b8a027c015e24f38b84    D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-366_1.jpg
+          0.82 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-366_1.jpg
+
+481       0.77 MB             f5972e08ff30d3d25b04cf0463afd2c    D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-367_1.jpg
+          0.77 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-367_1.jpg
+
+482       0.75 MB             3bbf9bd6aa5d55aaa50dda274f4f974a   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-370_1.jpg
+          0.75 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-370_1.jpg
+
+483       0.78 MB             b809767d7b58e6085a3aedd35ddf2032   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-371_1.jpg
+          0.78 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-371_1.jpg
+
+484       0.85 MB             5d8dab0dfafcea1fc7d7bca017b9f465   D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\f\c1-8686_jc1\index-372_1.jpg
+          0.85 MB                                                D:\Calibre\Calibre Portable\Calibre Settings\caches\ev2\t\c0-l8dpnwjg\index-372_1.jpg
+

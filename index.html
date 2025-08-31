@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finder Duplicates - Detector de Archivos Duplicados</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-search"></i>
+                    <h1>Finder Duplicates</h1>
+                </div>
+                <p class="subtitle">Encuentra y elimina archivos duplicados de forma inteligente</p>
+            </div>
+        </header>
+
+        <main class="main">
+            <div class="upload-section">
+                <div class="upload-area" id="uploadArea">
+                    <div class="upload-content">
+                        <i class="fas fa-cloud-upload-alt"></i>
+                        <h3>Selecciona archivos o carpetas</h3>
+                        <p>Arrastra y suelta archivos aquí o haz clic para seleccionar</p>
+                        <input type="file" id="fileInput" multiple webkitdirectory>
+                        <div class="upload-buttons">
+                            <button id="selectFiles" class="btn btn-primary">
+                                <i class="fas fa-file"></i>
+                                Seleccionar Archivos
+                            </button>
+                            <button id="selectFolder" class="btn btn-secondary">
+                                <i class="fas fa-folder"></i>
+                                Seleccionar Carpeta
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="filters">
+                    <div class="filter-group">
+                        <label for="extensionFilter">Filtrar por extensiones:</label>
+                        <input type="text" id="extensionFilter" placeholder=".jpg, .png, .txt" class="filter-input">
+                    </div>
+                    <button id="scanButton" class="btn btn-success" disabled>
+                        <i class="fas fa-search"></i>
+                        Escanear Duplicados
+                    </button>
+                </div>
+            </div>
+
+            <div class="progress-section" id="progressSection" style="display: none;">
+                <div class="progress-header">
+                    <h3><i class="fas fa-search"></i> Buscando Duplicados</h3>
+                    <div class="progress-status" id="progressStatus">
+                        <span class="status-badge" id="statusBadge">Preparando...</span>
+                    </div>
+                </div>
+                
+                <div class="progress-bar-container">
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progressFill"></div>
+                        <div class="progress-percentage" id="progressPercentage">0%</div>
+                    </div>
+                </div>
+                
+                <div class="progress-details">
+                    <div class="current-file-section">
+                        <div class="current-file-header">
+                            <i class="fas fa-file-alt"></i>
+                            <span>Procesando archivo:</span>
+                        </div>
+                        <div class="current-file-display" id="currentFileDisplay">
+                            <div class="file-name" id="currentFileName">Esperando...</div>
+                            <div class="file-path" id="currentFilePath"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="progress-stats">
+                        <div class="stat-item">
+                            <span class="stat-label">Procesados:</span>
+                            <span class="stat-value" id="processedCount">0</span> / <span id="totalCount">0</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Velocidad:</span>
+                            <span class="stat-value" id="processingSpeed">0 archivos/seg</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Tiempo estimado:</span>
+                            <span class="stat-value" id="estimatedTime">Calculando...</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="progress-log" id="progressLog">
+                    <div class="log-header">
+                        <i class="fas fa-list"></i>
+                        <span>Registro de actividad</span>
+                        <button class="btn-clear-log" id="clearLogBtn" title="Limpiar registro">
+                            <i class="fas fa-trash"></i>
+                        </button>
+                    </div>
+                    <div class="log-content" id="logContent">
+                        <!-- Los logs se insertan aquí -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="stats-section" id="statsSection" style="display: none;">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <i class="fas fa-file-alt"></i>
+                        <div class="stat-content">
+                            <span class="stat-number" id="totalFiles">0</span>
+                            <span class="stat-label">Archivos Totales</span>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-layer-group"></i>
+                        <div class="stat-content">
+                            <span class="stat-number" id="duplicateGroups">0</span>
+                            <span class="stat-label">Grupos Duplicados</span>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-hdd"></i>
+                        <div class="stat-content">
+                            <span class="stat-number" id="totalSize">0</span>
+                            <span class="stat-label">Tamaño Total</span>
+                        </div>
+                    </div>
+                    <div class="stat-card highlight">
+                        <i class="fas fa-trash-alt"></i>
+                        <div class="stat-content">
+                            <span class="stat-number" id="wastedSpace">0</span>
+                            <span class="stat-label">Espacio Desperdiciado</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="directory-summary-section" id="directorySummarySection" style="display: none;">
+                <div class="section-header">
+                    <h2><i class="fas fa-folder-open"></i> Directorios con Duplicados</h2>
+                    <div class="view-actions">
+                        <button id="sortByNameBtn" class="btn btn-outline btn-sm">
+                            <i class="fas fa-sort-alpha-down"></i> Nombre
+                        </button>
+                        <button id="sortByCountBtn" class="btn btn-outline btn-sm active">
+                            <i class="fas fa-sort-numeric-down"></i> Cantidad
+                        </button>
+                        <button id="sortBySizeBtn" class="btn btn-outline btn-sm">
+                            <i class="fas fa-sort-amount-down"></i> Tamaño
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="directory-list-container">
+                    <div class="directory-list-header">
+                        <div class="dir-col-icon"></div>
+                        <div class="dir-col-name">Directorio</div>
+                        <div class="dir-col-files">Archivos Duplicados</div>
+                        <div class="dir-col-groups">Grupos</div>
+                        <div class="dir-col-size">Espacio Desperdiciado</div>
+                        <div class="dir-col-percent">% del Total</div>
+                    </div>
+                    
+                    <div class="directory-list" id="directoryList">
+                        <!-- Las filas de directorios se insertan aquí -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="results-section" id="resultsSection" style="display: none;">
+                <div class="results-header">
+                    <h2><i class="fas fa-folder-tree"></i> Archivos Duplicados por Directorio</h2>
+                    <div class="results-actions">
+                        <button id="expandAllBtn" class="btn btn-outline">
+                            <i class="fas fa-expand-alt"></i>
+                            Expandir Todo
+                        </button>
+                        <button id="collapseAllBtn" class="btn btn-outline">
+                            <i class="fas fa-compress-alt"></i>
+                            Contraer Todo
+                        </button>
+                        <button id="exportBtn" class="btn btn-outline">
+                            <i class="fas fa-download"></i>
+                            Exportar Reporte
+                        </button>
+                        <button id="selectAllBtn" class="btn btn-outline">
+                            <i class="fas fa-check-square"></i>
+                            Seleccionar Todo
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="results-tabs">
+                    <button id="exactDuplicatesTab" class="tab-button active">
+                        <i class="fas fa-equals"></i>
+                        Duplicados Exactos (<span id="exactCount">0</span>)
+                    </button>
+                    <button id="suspiciousDuplicatesTab" class="tab-button">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        Duplicados Sospechosos (<span id="suspiciousCount">0</span>)
+                    </button>
+                </div>
+                
+                <div class="tree-explorer" id="treeExplorer">
+                    <!-- El árbol de directorios de duplicados exactos se inserta aquí -->
+                </div>
+                
+                <div class="tree-explorer" id="suspiciousTreeExplorer" style="display: none;">
+                    <!-- El árbol de directorios de duplicados sospechosos se inserta aquí -->
+                </div>
+                
+                <div class="suspicious-info" id="suspiciousInfo" style="display: none;">
+                    <div class="info-box">
+                        <i class="fas fa-info-circle"></i>
+                        <div class="info-content">
+                            <h4>¿Qué son los duplicados sospechosos?</h4>
+                            <p>Archivos que tienen el mismo contenido hash pero diferente tamaño. Pueden ser:</p>
+                            <ul>
+                                <li>📹 <strong>Fragmentos de video</strong> vs archivo completo</li>
+                                <li>🖼️ <strong>Imágenes con metadatos</strong> diferentes</li>
+                                <li>📄 <strong>Documentos con versiones</strong> ligeramente diferentes</li>
+                                <li>🎵 <strong>Audio con tags</strong> diferentes</li>
+                            </ul>
+                            <p><strong>⚠️ Revisa manualmente antes de eliminar</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <div class="toast-container" id="toastContainer"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
