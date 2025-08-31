@@ -198,40 +198,8 @@
                     </div>
                 </div>
                 
-                <div class="results-tabs">
-                    <button id="exactDuplicatesTab" class="tab-button active">
-                        <i class="fas fa-equals"></i>
-                        Duplicados Exactos (<span id="exactCount">0</span>)
-                    </button>
-                    <button id="suspiciousDuplicatesTab" class="tab-button">
-                        <i class="fas fa-exclamation-triangle"></i>
-                        Duplicados Sospechosos (<span id="suspiciousCount">0</span>)
-                    </button>
-                </div>
-                
                 <div class="tree-explorer" id="treeExplorer">
-                    <!-- El árbol de directorios de duplicados exactos se inserta aquí -->
-                </div>
-                
-                <div class="tree-explorer" id="suspiciousTreeExplorer" style="display: none;">
-                    <!-- El árbol de directorios de duplicados sospechosos se inserta aquí -->
-                </div>
-                
-                <div class="suspicious-info" id="suspiciousInfo" style="display: none;">
-                    <div class="info-box">
-                        <i class="fas fa-info-circle"></i>
-                        <div class="info-content">
-                            <h4>¿Qué son los duplicados sospechosos?</h4>
-                            <p>Archivos que tienen el mismo contenido hash pero diferente tamaño. Pueden ser:</p>
-                            <ul>
-                                <li>📹 <strong>Fragmentos de video</strong> vs archivo completo</li>
-                                <li>🖼️ <strong>Imágenes con metadatos</strong> diferentes</li>
-                                <li>📄 <strong>Documentos con versiones</strong> ligeramente diferentes</li>
-                                <li>🎵 <strong>Audio con tags</strong> diferentes</li>
-                            </ul>
-                            <p><strong>⚠️ Revisa manualmente antes de eliminar</strong></p>
-                        </div>
-                    </div>
+                    <!-- El árbol de directorios de duplicados se inserta aquí -->
                 </div>
             </div>
         </main>
@@ -239,6 +207,6 @@
 
     <div class="toast-container" id="toastContainer"></div>
 
-    <script src="app.js"></script>
+    <script type="module" src="js/app.js"></script>
 </body>
 </html>
