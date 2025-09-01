@@ -48,6 +48,7 @@ class DuplicateFinderWeb {
         
         this.exportBtn = document.getElementById('exportBtn');
         this.selectAllBtn = document.getElementById('selectAllBtn');
+        this.deleteSelectedBtn = document.getElementById('deleteSelectedBtn');
         
         this.toastContainer = document.getElementById('toastContainer');
         
@@ -106,6 +107,11 @@ class DuplicateFinderWeb {
         // Select all button
         this.selectAllBtn.addEventListener('click', () => {
             this.toggleSelectAll();
+        });
+
+        // Delete selected button
+        this.deleteSelectedBtn.addEventListener('click', () => {
+            this.deleteSelectedFiles();
         });
 
         // Clear log button
@@ -647,6 +653,18 @@ class DuplicateFinderWeb {
             const directoryNode = this.createDirectoryNode(dirPath, dirData, isSuspicious);
             container.appendChild(directoryNode);
         });
+
+        // Agregar event listeners para checkboxes después de crear el DOM
+        this.addCheckboxEventListeners(container);
+    }
+
+    addCheckboxEventListeners(container) {
+        const checkboxes = container.querySelectorAll('.tree-file-checkbox');
+        checkboxes.forEach(checkbox => {
+            checkbox.addEventListener('change', () => {
+                this.updateDeleteButtonState();
+            });
+        });
     }
 
     showExactDuplicates() {
@@ -784,6 +802,256 @@ class DuplicateFinderWeb {
         this.selectAllBtn.innerHTML = allChecked ? 
             '<i class="fas fa-check-square"></i> Seleccionar Todo' :
             '<i class="fas fa-square"></i> Deseleccionar Todo';
+        
+        this.updateDeleteButtonState();
+    }
+
+    updateDeleteButtonState() {
+        const checkedBoxes = document.querySelectorAll('.tree-file-checkbox:checked');
+        this.deleteSelectedBtn.disabled = checkedBoxes.length === 0;
+        
+        if (checkedBoxes.length > 0) {
+            this.deleteSelectedBtn.innerHTML = `<i class="fas fa-trash-alt"></i> Eliminar ${checkedBoxes.length} archivo${checkedBoxes.length > 1 ? 's' : ''}`;
+        } else {
+            this.deleteSelectedBtn.innerHTML = '<i class="fas fa-trash-alt"></i> Eliminar Seleccionados';
+        }
+    }
+
+    async deleteSelectedFiles() {
+        const checkedBoxes = document.querySelectorAll('.tree-file-checkbox:checked');
+        
+        if (checkedBoxes.length === 0) {
+            this.showToast('No hay archivos seleccionados para eliminar', 'error');
+            return;
+        }
+
+        // Verificar si el backend está disponible
+        const backendAvailable = await this.checkBackendAvailability();
+        console.log('Backend disponible para eliminación:', backendAvailable);
+        
+        if (!backendAvailable) {
+            const useSimulation = confirm(
+                '⚠️ Backend no disponible\n\n' +
+                'El servidor backend no está ejecutándose. Las opciones son:\n\n' +
+                '1. ✅ Continuar con simulación (solo actualiza la interfaz)\n' +
+                '2. ❌ Cancelar y iniciar el servidor primero\n\n' +
+                '¿Continuar con simulación?'
+            );
+            
+            if (!useSimulation) {
+                this.showToast('Para eliminación real, ejecuta: npm install && npm start', 'info');
+                return;
+            }
+        }
+
+        // Recopilar información de los archivos seleccionados
+        const filesToDelete = [];
+        const suspiciousFiles = [];
+        
+        checkedBoxes.forEach(checkbox => {
+            const fileElement = checkbox.closest('.tree-file');
+            const filePath = fileElement.dataset.filePath;
+            const groupId = fileElement.dataset.group;
+            const isSuspicious = fileElement.closest('.tree-explorer').id === 'suspiciousTreeExplorer';
+            
+            if (isSuspicious) {
+                suspiciousFiles.push(filePath);
+            }
+            filesToDelete.push({ path: filePath, groupId, isSuspicious });
+        });
+
+        // Mostrar advertencias para archivos sospechosos
+        if (suspiciousFiles.length > 0) {
+            const confirmSuspicious = confirm(
+                `⚠️ ADVERTENCIA: Has seleccionado ${suspiciousFiles.length} archivo(s) sospechoso(s).\n\n` +
+                `Los duplicados sospechosos pueden ser archivos importantes con ligeras diferencias.\n` +
+                `¿Estás seguro de que deseas eliminarlos?\n\n` +
+                `Archivos sospechosos:\n${suspiciousFiles.slice(0, 5).join('\n')}${suspiciousFiles.length > 5 ? '\n... y ' + (suspiciousFiles.length - 5) + ' más' : ''}`
+            );
+            
+            if (!confirmSuspicious) {
+                return;
+            }
+        }
+
+        // Confirmación final
+        const totalSize = this.calculateSelectedFilesSize(checkedBoxes);
+        const confirmDelete = confirm(
+            `🗑️ ¿Confirmar eliminación?\n\n` +
+            `Archivos a eliminar: ${filesToDelete.length}\n` +
+            `Espacio a liberar: ${totalSize}\n` +
+            `Archivos sospechosos: ${suspiciousFiles.length}\n\n` +
+            `⚠️ Esta acción NO se puede deshacer.\n\n` +
+            `¿Continuar con la eliminación?`
+        );
+
+        if (!confirmDelete) {
+            return;
+        }
+
+        // Proceder con la eliminación
+        await this.performFileDeletion(filesToDelete, backendAvailable);
+    }
+
+    calculateSelectedFilesSize(checkboxes) {
+        let totalSize = 0;
+        checkboxes.forEach(checkbox => {
+            const fileElement = checkbox.closest('.tree-file');
+            const filePath = fileElement.dataset.filePath;
+            
+            // Buscar el archivo en la lista de archivos procesados
+            this.files.forEach(file => {
+                if (file.path === filePath) {
+                    totalSize += file.size;
+                }
+            });
+        });
+        
+        return this.formatBytes(totalSize);
+    }
+
+    async performFileDeletion(filesToDelete, useRealDeletion = false) {
+        const results = {
+            deleted: [],
+            failed: [],
+            total: filesToDelete.length
+        };
+
+        this.showDeletionProgress(0, results.total);
+
+        for (let i = 0; i < filesToDelete.length; i++) {
+            const file = filesToDelete[i];
+            
+            try {
+                if (useRealDeletion) {
+                    // Eliminación real a través de la API backend
+                    await this.realFileDeletion(file.path);
+                } else {
+                    // Simulación cuando el backend no está disponible
+                    await this.simulateFileDeletion(file.path);
+                }
+                
+                results.deleted.push(file.path);
+                const mode = useRealDeletion ? 'Eliminado' : 'Simulado';
+                this.showToast(`${mode}: ${this.getFileName(file.path)}`, 'success');
+                
+                // Actualizar UI: remover el archivo del árbol
+                this.removeFileFromUI(file.path);
+                
+            } catch (error) {
+                results.failed.push({ path: file.path, error: error.message });
+                this.showToast(`Error al eliminar: ${this.getFileName(file.path)} - ${error.message}`, 'error');
+            }
+
+            // Actualizar progreso
+            this.showDeletionProgress(i + 1, results.total);
+        }
+
+        // Mostrar resumen final
+        this.showDeletionSummary(results);
+        
+        // Actualizar estado de botones
+        this.updateDeleteButtonState();
+    }
+
+    async realFileDeletion(filePath) {
+        // Realizar eliminación real a través de la API backend
+        console.log('Intentando eliminar archivo:', filePath);
+        const response = await fetch('/api/delete-files', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                files: [{ path: filePath }]
+            })
+        });
+
+        if (!response.ok) {
+            throw new Error(`Error HTTP: ${response.status}`);
+        }
+
+        const data = await response.json();
+        
+        if (!data.success) {
+            throw new Error(data.error || 'Error desconocido del servidor');
+        }
+
+        // Verificar si el archivo específico fue eliminado exitosamente
+        if (data.results.failed.length > 0) {
+            const failed = data.results.failed.find(f => f.path === filePath);
+            if (failed) {
+                throw new Error(failed.error);
+            }
+        }
+
+        return data.results;
+    }
+
+    async checkBackendAvailability() {
+        try {
+            const controller = new AbortController();
+            const timeoutId = setTimeout(() => controller.abort(), 3000);
+            
+            const response = await fetch('/api/health', {
+                method: 'GET',
+                signal: controller.signal
+            });
+            
+            clearTimeout(timeoutId);
+            console.log('Backend health check:', response.status, response.ok);
+            return response.ok;
+        } catch (error) {
+            console.log('Backend not available:', error.message);
+            return false;
+        }
+    }
+
+    async simulateFileDeletion(filePath) {
+        // Método de fallback para cuando el backend no está disponible
+        await new Promise(resolve => setTimeout(resolve, 100));
+        console.log(`Simulando eliminación de: ${filePath}`);
+        
+        // Simular algunos errores ocasionales
+        if (Math.random() < 0.05) {
+            throw new Error('Error simulado: Archivo en uso');
+        }
+    }
+
+    removeFileFromUI(filePath) {
+        const fileElement = document.querySelector(`[data-file-path="${CSS.escape(filePath)}"]`);
+        if (fileElement) {
+            fileElement.remove();
+            
+            // Si el directorio queda vacío, removerlo también
+            const directory = fileElement.closest('.tree-directory');
+            if (directory && directory.querySelectorAll('.tree-file').length === 0) {
+                directory.remove();
+            }
+        }
+    }
+
+    showDeletionProgress(current, total) {
+        const percentage = (current / total * 100).toFixed(1);
+        this.showToast(`Eliminando archivos: ${current}/${total} (${percentage}%)`, 'info', false);
+    }
+
+    showDeletionSummary(results) {
+        const message = `✅ Eliminación completada\n\n` +
+                       `Archivos eliminados: ${results.deleted.length}\n` +
+                       `Errores: ${results.failed.length}\n` +
+                       `Total procesados: ${results.total}`;
+        
+        if (results.failed.length > 0) {
+            const failedList = results.failed.map(f => `- ${this.getFileName(f.path)}: ${f.error}`).join('\n');
+            alert(message + `\n\nArchivos con errores:\n${failedList}`);
+        } else {
+            this.showToast(`✅ ${results.deleted.length} archivos eliminados exitosamente`, 'success');
+        }
+    }
+
+    getFileName(filePath) {
+        return filePath.split(/[/\\]/).pop();
     }
 
     exportResults() {
