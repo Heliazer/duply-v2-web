@@ -158,7 +158,10 @@ class DuplicateFinderWeb {
     }
 
     handleFileSelection(files) {
-        this.files = Array.from(files).filter(file => file.type !== '');
+        this.files = Array.from(files).filter(file => {
+            // Excluir carpetas: verificar que es un archivo real
+            return file.size > 0 && file.type !== undefined && file.name !== '.';
+        });
         
         if (this.files.length > 0) {
             this.scanButton.disabled = false;
