@@ -2,9 +2,27 @@ class DuplicateFinderWeb {
     constructor() {
         this.files = [];
         this.duplicateFinder = null;
+        this.hashWorkerManager = null;
+        this.hashCache = null;
+        this.directoryHandle = null; // Store directory handle for modern API
+        this.fileHandles = new Map(); // Map file paths to file handles
         this.initializeElements();
         this.setupEventListeners();
         this.initializeWebAssembly();
+        this.initializeWorkers();
+        this.initializeCache();
+        
+        // Cleanup workers on page unload
+        window.addEventListener('beforeunload', () => {
+            this.cleanup();
+        });
+    }
+    
+    cleanup() {
+        if (this.hashWorkerManager) {
+            this.hashWorkerManager.destroy();
+            this.hashWorkerManager = null;
+        }
     }
 
     initializeElements() {
@@ -72,6 +90,11 @@ class DuplicateFinderWeb {
             this.fileInput.setAttribute('webkitdirectory', '');
             this.fileInput.click();
         });
+
+        // Modern File System Access API button (if supported)
+        if ('showDirectoryPicker' in window) {
+            this.addModernFileSystemButton();
+        }
 
         this.fileInput.addEventListener('change', (e) => {
             this.handleFileSelection(e.target.files);
@@ -157,18 +180,211 @@ class DuplicateFinderWeb {
         this.showToast('Aplicación lista para usar', 'success');
     }
 
-    handleFileSelection(files) {
-        this.files = Array.from(files).filter(file => {
-            // Excluir carpetas: verificar que es un archivo real
-            return file.size > 0 && file.type !== undefined && file.name !== '.';
+    initializeWorkers() {
+        // Initialize hash worker manager for parallel processing
+        try {
+            // Temporarily disable workers due to CSP issues
+            // this.hashWorkerManager = new HashWorkerManager();
+            this.hashWorkerManager = null;
+            console.log('⚠️ Web Workers disabled due to CSP restrictions - using main thread');
+        } catch (error) {
+            console.warn('Failed to initialize workers, falling back to main thread:', error);
+            this.hashWorkerManager = null;
+        }
+    }
+
+    initializeCache() {
+        // Initialize hash cache for intelligent caching
+        try {
+            this.hashCache = new HashCache();
+            console.log('💾 Hash cache initialized for faster repeated scans');
+        } catch (error) {
+            console.warn('Failed to initialize hash cache:', error);
+            this.hashCache = null;
+        }
+    }
+
+    addModernFileSystemButton() {
+        // Create a new modern button for File System Access API
+        const modernBtn = document.createElement('button');
+        modernBtn.className = 'btn modern-folder-btn';
+        modernBtn.innerHTML = '<i class="fas fa-folder-plus"></i> Seleccionar Carpeta (Moderno)';
+        modernBtn.title = 'Usar File System Access API para obtener rutas absolutas';
+        
+        // Insert it after the regular folder button
+        this.selectFolderBtn.parentNode.insertBefore(modernBtn, this.selectFolderBtn.nextSibling);
+        
+        modernBtn.addEventListener('click', () => {
+            this.selectDirectoryModern();
+        });
+    }
+
+    async selectDirectoryModern() {
+        try {
+            if (!('showDirectoryPicker' in window)) {
+                this.showToast('File System Access API no está soportado en este navegador', 'error');
+                return;
+            }
+
+            this.directoryHandle = await window.showDirectoryPicker({
+                mode: 'readwrite' // Need write permission for deletion
+            });
+
+            this.showToast('Procesando archivos de la carpeta...', 'info');
+            
+            const fileHandles = [];
+            this.fileHandles.clear();
+            await this.processDirectoryHandle(this.directoryHandle, fileHandles);
+            
+            // Convert to File objects and store handles
+            const processedFiles = await Promise.all(
+                fileHandles.map(async (handleInfo) => {
+                    const file = await handleInfo.handle.getFile();
+                    // Create a unique identifier for modern API files
+                    const modernPath = `[MODERN]${handleInfo.relativePath}`;
+                    file.fullPath = modernPath;
+                    file.isModernAPI = true; // Flag to identify modern API files
+                    
+                    // Store the handle for later deletion using the modern path identifier
+                    this.fileHandles.set(modernPath, handleInfo.handle);
+                    
+                    return file;
+                })
+            );
+
+            this.handleModernFileSelection(processedFiles);
+
+        } catch (error) {
+            if (error.name === 'AbortError') {
+                this.showToast('Selección cancelada', 'warning');
+            } else {
+                console.error('Error accessing directory:', error);
+                this.showToast('Error al acceder a la carpeta: ' + error.message, 'error');
+            }
+        }
+    }
+
+    async processDirectoryHandle(directoryHandle, files, path = '') {
+        for await (const entry of directoryHandle.values()) {
+            const currentPath = path ? `${path}/${entry.name}` : entry.name;
+            
+            if (entry.kind === 'file') {
+                files.push({
+                    handle: entry,
+                    relativePath: currentPath
+                });
+            } else if (entry.kind === 'directory') {
+                await this.processDirectoryHandle(entry, files, currentPath);
+            }
+        }
+    }
+
+    async getFullPath(fileHandle) {
+        // Try to get the full path - this is experimental and may not work in all browsers
+        if ('resolve' in fileHandle) {
+            try {
+                const path = await fileHandle.resolve();
+                return path.join('/');
+            } catch (error) {
+                console.warn('Could not resolve full path:', error);
+            }
+        }
+        
+        // Fallback: use the file name (still better than webkitRelativePath)
+        const file = await fileHandle.getFile();
+        return file.name;
+    }
+
+    handleModernFileSelection(files) {
+        const allFiles = Array.from(files);
+        let validFiles = 0;
+        let blockedFiles = 0;
+        
+        this.files = allFiles.filter(file => {
+            // Basic file validation
+            if (!file || file.size === 0 || file.name === '.') {
+                return false;
+            }
+            
+            if (!InputValidator.validateFileSize(file)) {
+                console.warn('Blocked oversized file:', file.name, file.size);
+                blockedFiles++;
+                return false;
+            }
+            
+            if (!InputValidator.validateFileType(file)) {
+                console.warn('Blocked file with dangerous type:', file.name, file.type);
+                blockedFiles++;
+                return false;
+            }
+            
+            validFiles++;
+            return true;
         });
         
         if (this.files.length > 0) {
             this.scanButton.disabled = false;
-            this.showToast(`${this.files.length} archivos seleccionados`, 'success');
+            let message = `${this.files.length} archivos seleccionados (con rutas absolutas)`;
+            if (blockedFiles > 0) {
+                message += ` (${blockedFiles} archivos bloqueados por seguridad)`;
+            }
+            this.showToast(message, 'success');
         } else {
             this.scanButton.disabled = true;
-            this.showToast('No se seleccionaron archivos válidos', 'warning');
+            const message = blockedFiles > 0 
+                ? `${blockedFiles} archivos bloqueados por razones de seguridad`
+                : 'No se seleccionaron archivos válidos';
+            this.showToast(message, 'warning');
+        }
+    }
+
+    handleFileSelection(files) {
+        const allFiles = Array.from(files);
+        let validFiles = 0;
+        let blockedFiles = 0;
+        
+        this.files = allFiles.filter(file => {
+            // Basic file validation
+            if (!file || file.size === 0 || file.name === '.') {
+                return false;
+            }
+            
+            // Apply security validations
+            if (!InputValidator.validateFileName(file.name)) {
+                console.warn('Blocked file with invalid name:', file.name);
+                blockedFiles++;
+                return false;
+            }
+            
+            if (!InputValidator.validateFileSize(file.size)) {
+                console.warn('Blocked file with invalid size:', file.name, file.size);
+                blockedFiles++;
+                return false;
+            }
+            
+            if (!InputValidator.validateFileType(file)) {
+                console.warn('Blocked file with dangerous type:', file.name, file.type);
+                blockedFiles++;
+                return false;
+            }
+            
+            validFiles++;
+            return true;
+        });
+        
+        if (this.files.length > 0) {
+            this.scanButton.disabled = false;
+            let message = `${this.files.length} archivos seleccionados`;
+            if (blockedFiles > 0) {
+                message += ` (${blockedFiles} archivos bloqueados por seguridad)`;
+            }
+            this.showToast(message, 'success');
+        } else {
+            this.scanButton.disabled = true;
+            const message = blockedFiles > 0 
+                ? `${blockedFiles} archivos bloqueados por razones de seguridad`
+                : 'No se seleccionaron archivos válidos';
+            this.showToast(message, 'warning');
         }
     }
 
@@ -185,7 +401,7 @@ class DuplicateFinderWeb {
             return;
         }
 
-        const duplicateFinder = new JavaScriptDuplicateFinder();
+        const duplicateFinder = new JavaScriptDuplicateFinder(this.hashWorkerManager, this.hashCache);
         this.startTime = Date.now();
         this.processedFiles = 0;
         this.totalFiles = filteredFiles.length;
@@ -193,33 +409,51 @@ class DuplicateFinderWeb {
         this.totalCount.textContent = this.totalFiles;
         this.addLogEntry('Iniciando escaneo de duplicados...', 'info');
 
-        for (const file of filteredFiles) {
-            try {
-                // Update current file display
-                this.updateCurrentFile(file);
-                this.addLogEntry(`Procesando: ${file.name}`, 'processing');
-                
-                const content = await this.readFileContent(file);
-                duplicateFinder.addFile(file.name, file.webkitRelativePath || file.name, content);
-                
-                this.processedFiles++;
-                this.updateProgress();
-                
-                // Small delay to allow UI updates and show processing
-                await new Promise(resolve => setTimeout(resolve, Math.random() * 50 + 25));
-            } catch (error) {
-                console.error('Error reading file:', file.name, error);
-                this.addLogEntry(`Error procesando: ${file.name}`, 'error');
-            }
+        // Process files in parallel batches for better performance
+        const rawBatchSize = this.hashWorkerManager && this.hashWorkerManager.workers.length > 0 
+            ? this.hashWorkerManager.maxWorkers * 2 
+            : 1;
+        const batchSize = InputValidator.validateBatchSize(rawBatchSize);
+            
+        for (let i = 0; i < filteredFiles.length; i += batchSize) {
+            const batch = filteredFiles.slice(i, i + batchSize);
+            const promises = batch.map(async (file) => {
+                try {
+                    this.updateCurrentFile(file);
+                    this.addLogEntry(`Procesando: ${file.name}`, 'processing');
+                    
+                    const content = await this.readFileContent(file);
+                    const filePath = file.fullPath || file.webkitRelativePath || file.name;
+                    await duplicateFinder.addFileAsync(file.name, filePath, content, file);
+                    
+                    this.processedFiles++;
+                    this.updateProgress();
+                } catch (error) {
+                    console.error('Error reading file:', file.name, error);
+                    this.addLogEntry(`Error procesando: ${file.name}`, 'error');
+                }
+            });
+            
+            await Promise.all(promises);
+            
+            // Small delay to allow UI updates
+            await new Promise(resolve => setTimeout(resolve, 10));
         }
 
         this.addLogEntry('Analizando duplicados...', 'info');
         this.updateStatus('Analizando resultados...', 'processing');
         
         // Simulate analysis time
-        await new Promise(resolve => setTimeout(resolve, 500));
+        await new Promise(resolve => setTimeout(resolve, 200));
         
         const results = duplicateFinder.findDuplicates();
+        
+        // Show cache statistics
+        if (this.hashCache && (duplicateFinder.cacheHits + duplicateFinder.cacheMisses) > 0) {
+            const hitRate = ((duplicateFinder.cacheHits / (duplicateFinder.cacheHits + duplicateFinder.cacheMisses)) * 100).toFixed(1);
+            this.addLogEntry(`Cache stats: ${duplicateFinder.cacheHits} hits, ${duplicateFinder.cacheMisses} misses (${hitRate}% hit rate)`, 'info');
+        }
+        
         this.addLogEntry(`Escaneo completado. ${results.groups.length} grupos encontrados.`, 'completed');
         this.hideProgress();
         this.displayResults(results);
@@ -238,10 +472,15 @@ class DuplicateFinderWeb {
         const filterText = this.extensionFilter.value.trim();
         if (!filterText) return [];
         
-        return filterText.split(',')
-            .map(ext => ext.trim().toLowerCase())
-            .filter(ext => ext)
-            .map(ext => ext.startsWith('.') ? ext : '.' + ext);
+        // Use InputValidator for secure extension filtering
+        const validExtensions = InputValidator.validateExtensionFilter(filterText);
+        
+        // Show warning if input was sanitized
+        if (validExtensions.length === 0 && filterText) {
+            this.showToast('Filtro de extensiones inválido. Use formato: .jpg, .png, .txt', 'warning');
+        }
+        
+        return validExtensions;
     }
 
     filterFilesByExtension(files, extensions) {
@@ -295,7 +534,7 @@ class DuplicateFinderWeb {
 
     updateCurrentFile(file) {
         this.currentFileName.textContent = file.name;
-        this.currentFilePath.textContent = file.webkitRelativePath || file.name;
+        this.currentFilePath.textContent = file.fullPath || file.webkitRelativePath || file.name;
     }
 
     updateStatus(text, type) {
@@ -927,8 +1166,13 @@ class DuplicateFinderWeb {
             
             try {
                 if (useRealDeletion) {
-                    // Eliminación real a través de la API backend
-                    await this.realFileDeletion(file.path);
+                    // Check if this file was selected using modern API
+                    if (file.isModernAPI) {
+                        await this.modernFileDeletion(file.path);
+                    } else {
+                        // Eliminación real a través de la API backend
+                        await this.realFileDeletion(file.path);
+                    }
                 } else {
                     // Simulación cuando el backend no está disponible
                     await this.simulateFileDeletion(file.path);
@@ -955,6 +1199,37 @@ class DuplicateFinderWeb {
         
         // Actualizar estado de botones
         this.updateDeleteButtonState();
+    }
+
+    async modernFileDeletion(filePath) {
+        // Eliminación usando File System Access API
+        console.log('Eliminando archivo usando File System Access API:', filePath);
+        
+        if (!this.fileHandles.has(filePath)) {
+            throw new Error('Handle de archivo no encontrado para: ' + filePath);
+        }
+        
+        const fileHandle = this.fileHandles.get(filePath);
+        
+        try {
+            // Remove the file using the File System Access API
+            await fileHandle.remove();
+            
+            // Remove from our handle map
+            this.fileHandles.delete(filePath);
+            
+            console.log('✅ Archivo eliminado exitosamente usando File System API:', filePath);
+            
+        } catch (error) {
+            console.error('❌ Error eliminando archivo con File System API:', error);
+            if (error.name === 'NotAllowedError') {
+                throw new Error('Permisos insuficientes para eliminar el archivo');
+            } else if (error.name === 'NotFoundError') {
+                throw new Error('El archivo no existe o fue movido');
+            } else {
+                throw new Error('Error al eliminar archivo: ' + error.message);
+            }
+        }
     }
 
     async realFileDeletion(filePath) {
@@ -1147,17 +1422,439 @@ class DuplicateFinderWeb {
     }
 }
 
+// Input Validator for security and robustness
+class InputValidator {
+    static validateExtensionFilter(input) {
+        if (!input || typeof input !== 'string') {
+            return [];
+        }
+        
+        // Sanitize input - only allow letters, numbers, dots, commas, hyphens, and spaces
+        const sanitized = input.replace(/[^\w\.,\-\s]/g, '');
+        
+        if (sanitized !== input) {
+            console.warn('Extension filter was sanitized:', input, '->', sanitized);
+        }
+        
+        // Split by comma and process each extension
+        const extensions = sanitized.split(',')
+            .map(ext => ext.trim().toLowerCase())
+            .filter(ext => {
+                // Must start with dot and be 1-10 characters long
+                return ext.match(/^\.[a-z0-9]{1,10}$/);
+            })
+            .slice(0, 20); // Limit to 20 extensions maximum
+        
+        return extensions;
+    }
+    
+    static validateFilePath(path) {
+        if (!path || typeof path !== 'string') {
+            return false;
+        }
+        
+        // Prevent path traversal attacks
+        const dangerousPatterns = [
+            '../',
+            '..\\',
+            '..',
+            '~/',
+            '~\\',
+            '/etc/',
+            '/bin/',
+            '/usr/',
+            '/var/',
+            '/sys/',
+            '/proc/',
+            'C:\\Windows\\',
+            'C:\\Program Files\\',
+            'C:\\System32\\'
+        ];
+        
+        const lowerPath = path.toLowerCase();
+        return !dangerousPatterns.some(pattern => lowerPath.includes(pattern.toLowerCase()));
+    }
+    
+    static validateFileName(fileName) {
+        if (!fileName || typeof fileName !== 'string') {
+            return false;
+        }
+        
+        // Check for reasonable length
+        if (fileName.length > 255) {
+            return false;
+        }
+        
+        // Prevent dangerous file names
+        const dangerousNames = [
+            'con', 'prn', 'aux', 'nul',
+            'com1', 'com2', 'com3', 'com4', 'com5', 'com6', 'com7', 'com8', 'com9',
+            'lpt1', 'lpt2', 'lpt3', 'lpt4', 'lpt5', 'lpt6', 'lpt7', 'lpt8', 'lpt9'
+        ];
+        
+        const nameOnly = fileName.split('.')[0].toLowerCase();
+        return !dangerousNames.includes(nameOnly);
+    }
+    
+    static validateFileSize(size) {
+        if (typeof size !== 'number' || size < 0) {
+            return false;
+        }
+        
+        // Limit to 10GB per file for sanity
+        const maxSize = 10 * 1024 * 1024 * 1024;
+        return size <= maxSize;
+    }
+    
+    static validateFileType(file) {
+        if (!file || !file.type) {
+            return true; // Allow files without MIME type
+        }
+        
+        // Block potentially dangerous file types
+        const blockedTypes = [
+            'application/x-msdownload',
+            'application/x-executable',
+            'application/x-msdos-program',
+            'application/x-winexe',
+            'application/x-ms-dos-executable'
+        ];
+        
+        return !blockedTypes.includes(file.type.toLowerCase());
+    }
+    
+    static sanitizeInput(input, maxLength = 1000) {
+        if (!input || typeof input !== 'string') {
+            return '';
+        }
+        
+        // Remove potentially dangerous characters and limit length
+        return input
+            .replace(/[<>\"'&]/g, '') // Remove HTML/script injection chars
+            .trim()
+            .substring(0, maxLength);
+    }
+    
+    static validateBatchSize(size) {
+        if (typeof size !== 'number' || size < 1) {
+            return 1;
+        }
+        
+        // Limit batch size to prevent memory issues
+        return Math.min(size, 100);
+    }
+}
+
+// Hash Cache for intelligent caching of file hashes
+class HashCache {
+    constructor() {
+        this.memoryCache = new Map();
+        this.storageKey = 'duply_hash_cache_v2';
+        this.maxCacheSize = 1000; // Limit cache to 1000 entries
+        this.cacheHits = 0;
+        this.cacheMisses = 0;
+        this.loadFromStorage();
+    }
+    
+    getCacheKey(file) {
+        // Create unique key based on file properties that change when content changes
+        return `${file.name}_${file.size}_${file.lastModified}_${file.type}`;
+    }
+    
+    getCachedHash(file) {
+        const key = this.getCacheKey(file);
+        const cached = this.memoryCache.get(key);
+        
+        if (cached && this.isCacheValid(cached)) {
+            this.cacheHits++;
+            return cached.hash;
+        }
+        
+        // Remove invalid cache entry
+        if (cached) {
+            this.memoryCache.delete(key);
+        }
+        
+        this.cacheMisses++;
+        return null;
+    }
+    
+    setCachedHash(file, hash) {
+        const key = this.getCacheKey(file);
+        const cacheEntry = {
+            hash: hash,
+            timestamp: Date.now(),
+            fileSize: file.size,
+            lastModified: file.lastModified
+        };
+        
+        // Implement LRU-style cache management
+        if (this.memoryCache.size >= this.maxCacheSize) {
+            this.evictOldestEntries();
+        }
+        
+        this.memoryCache.set(key, cacheEntry);
+        this.saveToStorage();
+    }
+    
+    isCacheValid(cacheEntry) {
+        // Cache is valid for 7 days
+        const maxAge = 7 * 24 * 60 * 60 * 1000; // 7 days in milliseconds
+        const age = Date.now() - cacheEntry.timestamp;
+        return age < maxAge;
+    }
+    
+    evictOldestEntries() {
+        // Remove 20% of oldest entries when cache is full
+        const entriesToRemove = Math.floor(this.maxCacheSize * 0.2);
+        const sortedEntries = Array.from(this.memoryCache.entries())
+            .sort((a, b) => a[1].timestamp - b[1].timestamp);
+            
+        for (let i = 0; i < entriesToRemove && i < sortedEntries.length; i++) {
+            this.memoryCache.delete(sortedEntries[i][0]);
+        }
+        
+        console.log(`🧹 Cache cleanup: removed ${entriesToRemove} old entries`);
+    }
+    
+    loadFromStorage() {
+        try {
+            const stored = localStorage.getItem(this.storageKey);
+            if (stored) {
+                const data = JSON.parse(stored);
+                
+                // Convert stored array back to Map and validate entries
+                let loadedCount = 0;
+                for (const [key, value] of data) {
+                    if (this.isCacheValid(value)) {
+                        this.memoryCache.set(key, value);
+                        loadedCount++;
+                    }
+                }
+                
+                console.log(`📂 Loaded ${loadedCount} valid hash cache entries from storage`);
+            }
+        } catch (error) {
+            console.warn('Failed to load hash cache from storage:', error);
+            this.clearCache();
+        }
+    }
+    
+    saveToStorage() {
+        try {
+            // Convert Map to array for JSON serialization
+            const dataToStore = Array.from(this.memoryCache.entries());
+            localStorage.setItem(this.storageKey, JSON.stringify(dataToStore));
+        } catch (error) {
+            console.warn('Failed to save hash cache to storage:', error);
+            // If storage is full, try clearing some space
+            if (error.name === 'QuotaExceededError') {
+                this.evictOldestEntries();
+                try {
+                    const dataToStore = Array.from(this.memoryCache.entries());
+                    localStorage.setItem(this.storageKey, JSON.stringify(dataToStore));
+                } catch (retryError) {
+                    console.error('Failed to save cache even after cleanup:', retryError);
+                }
+            }
+        }
+    }
+    
+    clearCache() {
+        this.memoryCache.clear();
+        localStorage.removeItem(this.storageKey);
+        console.log('🗑️ Hash cache cleared');
+    }
+    
+    getCacheStats() {
+        const validEntries = Array.from(this.memoryCache.values())
+            .filter(entry => this.isCacheValid(entry));
+            
+        return {
+            totalEntries: this.memoryCache.size,
+            validEntries: validEntries.length,
+            invalidEntries: this.memoryCache.size - validEntries.length,
+            cacheHitRate: this.cacheHits / (this.cacheHits + this.cacheMisses) || 0
+        };
+    }
+}
+
+// Hash Worker Manager for parallel processing
+class HashWorkerManager {
+    constructor() {
+        this.workers = [];
+        this.maxWorkers = Math.min(navigator.hardwareConcurrency || 4, 8); // Limit to 8 workers max
+        this.currentWorkerIndex = 0;
+        this.pendingTasks = new Map(); // Track pending hash calculations
+        this.initWorkers();
+    }
+    
+    initWorkers() {
+        // Create worker pool
+        for (let i = 0; i < this.maxWorkers; i++) {
+            try {
+                const worker = new Worker('hash-worker.js');
+                worker.onmessage = this.handleWorkerMessage.bind(this);
+                worker.onerror = this.handleWorkerError.bind(this);
+                this.workers.push(worker);
+            } catch (error) {
+                console.warn('Web Worker not supported, falling back to main thread', error);
+                break;
+            }
+        }
+        console.log(`🔧 Initialized ${this.workers.length} hash workers`);
+    }
+    
+    handleWorkerMessage(e) {
+        const { success, fileId, fileName, hash, fileSize, error, chunkIndex } = e.data;
+        const pendingTask = this.pendingTasks.get(fileId);
+        
+        if (!pendingTask) {
+            console.warn('Received result for unknown task:', fileId);
+            return;
+        }
+        
+        if (success) {
+            pendingTask.resolve({ hash, size: fileSize });
+        } else {
+            pendingTask.reject(new Error(error));
+        }
+        
+        this.pendingTasks.delete(fileId);
+    }
+    
+    handleWorkerError(error) {
+        console.error('Worker error:', error);
+    }
+    
+    async calculateHashParallel(fileName, fileData, fileSize) {
+        // If no workers available, fall back to main thread
+        if (this.workers.length === 0) {
+            return this.calculateHashMainThread(fileData, fileSize);
+        }
+        
+        return new Promise((resolve, reject) => {
+            const fileId = `${fileName}_${Date.now()}_${Math.random()}`;
+            const worker = this.workers[this.currentWorkerIndex];
+            
+            // Store the promise resolvers
+            this.pendingTasks.set(fileId, { resolve, reject });
+            
+            // Send task to worker
+            worker.postMessage({
+                fileId,
+                fileName,
+                fileData,
+                fileSize,
+                chunkIndex: this.currentWorkerIndex
+            });
+            
+            // Round-robin worker selection
+            this.currentWorkerIndex = (this.currentWorkerIndex + 1) % this.workers.length;
+        });
+    }
+    
+    // Fallback hash calculation on main thread
+    calculateHashMainThread(data, size) {
+        let fnv1a = 0x811c9dc5;
+        let djb2 = 5381;
+        let sdbm = 0;
+        let sum = 0;
+        
+        for (let i = 0; i < data.length; i++) {
+            const byte = data[i];
+            const pos = i + 1;
+            
+            fnv1a ^= byte;
+            fnv1a = Math.imul(fnv1a, 0x1000193);
+            
+            djb2 = Math.imul(djb2, 33) ^ byte;
+            sdbm = Math.imul(sdbm, 65599) + byte;
+            sum += byte * pos;
+        }
+        
+        const sizeComponent = size * 0x9e3779b9;
+        const hash1 = (fnv1a ^ sizeComponent) >>> 0;
+        const hash2 = (djb2 ^ (size << 8)) >>> 0;
+        const hash3 = (sdbm ^ sum) >>> 0;
+        const hash4 = size >>> 0;
+        
+        const finalHash = hash1.toString(16).padStart(8, '0') + 
+                         hash2.toString(16).padStart(8, '0') + 
+                         hash3.toString(16).padStart(8, '0') + 
+                         hash4.toString(16).padStart(8, '0');
+        
+        return Promise.resolve({ hash: finalHash, size });
+    }
+    
+    destroy() {
+        // Clean up workers
+        this.workers.forEach(worker => worker.terminate());
+        this.workers = [];
+        this.pendingTasks.clear();
+    }
+}
+
 // JavaScript implementation of the duplicate finder (fallback)
 class JavaScriptDuplicateFinder {
-    constructor() {
+    constructor(hashWorkerManager = null, hashCache = null) {
         this.hashGroups = new Map();
         this.totalFiles = 0;
         this.totalSize = 0;
+        this.hashWorkerManager = hashWorkerManager;
+        this.hashCache = hashCache;
+        this.cacheHits = 0;
+        this.cacheMisses = 0;
     }
 
     addFile(name, path, content) {
         const hash = this.calculateHash(content);
         const size = content.byteLength || content.length;
+        
+        this.addFileWithHash(name, path, hash, size);
+    }
+
+    async addFileAsync(name, path, content, fileObject = null) {
+        const data = content instanceof Uint8Array ? content : new Uint8Array(content);
+        const size = data.byteLength || data.length;
+        
+        let hash;
+        
+        // Try to get hash from cache first
+        if (this.hashCache && fileObject) {
+            const cachedHash = this.hashCache.getCachedHash(fileObject);
+            if (cachedHash) {
+                hash = cachedHash;
+                this.cacheHits++;
+                console.log(`💾 Cache hit for: ${name}`);
+                this.addFileWithHash(name, path, hash, size);
+                return;
+            }
+            this.cacheMisses++;
+        }
+        
+        // Calculate hash (using workers if available)
+        if (this.hashWorkerManager && this.hashWorkerManager.workers.length > 0) {
+            try {
+                const result = await this.hashWorkerManager.calculateHashParallel(name, data, size);
+                hash = result.hash;
+            } catch (error) {
+                console.warn('Worker failed, falling back to main thread:', error);
+                hash = this.calculateHash(content);
+            }
+        } else {
+            hash = this.calculateHash(content);
+        }
+        
+        // Cache the hash for future use
+        if (this.hashCache && fileObject) {
+            this.hashCache.setCachedHash(fileObject, hash);
+        }
+        
+        this.addFileWithHash(name, path, hash, size);
+    }
+
+    addFileWithHash(name, path, hash, size) {
         
         const file = { name, path, size };
         
